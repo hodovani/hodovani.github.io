@@ -1,2 +1,0 @@
-webpackJsonp([60335399758886],{98:function(t,o){t.exports={data:{site:{siteMetadata:{title:"Matvii Hodovaniuk",description:"Full stack product enginner",url:"https://matvii.hodovani.uk",keywords:"full stack, product enginner, portfolio, personal website"}}},layoutContext:{}}}});
-//# sourceMappingURL=path----b3c9a31c43115344f0fb.js.map
