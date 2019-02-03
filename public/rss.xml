@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Matvii Hodovaniuk]]></title><description><![CDATA[Personal blog by Matvii Hodovaniuk.]]></description><link>https://matvii.hodovani.uk/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 03 Feb 2019 20:45:56 GMT</lastBuildDate><item><title><![CDATA[JavaScript.swift]]></title><description><![CDATA[How to make import JavaScript package in Swift easier? Check code here  Source What problem does JavaScript.swift solve? I work mostly with…]]></description><link>https://matvii.hodovani.uk//javascriptswift/</link><guid isPermaLink="false">https://matvii.hodovani.uk//javascriptswift/</guid><pubDate>Sat, 02 Feb 2019 01:02:03 GMT</pubDate><content:encoded>&lt;p&gt;How to make import JavaScript package in Swift easier?&lt;/p&gt;
+&lt;p&gt;Check code here &lt;a href=&quot;https://github.com/hodovani/JavaScript.swift&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;What problem does JavaScript.swift solve?&lt;/h2&gt;
+&lt;p&gt;I work mostly with JavaScript and use packages from &lt;a href=&quot;https://www.npmjs.com&quot;&gt;NPM&lt;/a&gt; is common solution for faster idea prototype.
+It is quite hard to not find package for your problem on NPM.&lt;/p&gt;
+&lt;p&gt;I tried &lt;a href=&quot;https://developer.apple.com/swift/&quot;&gt;Swift&lt;/a&gt; for last two months and found that amount of ready solution in swift package managers is smaller than in NPM.&lt;/p&gt;
+&lt;p&gt;Also in Swift 5.0 will be &lt;a href=&quot;https://github.com/apple/swift-evolution/blob/master/proposals/0216-dynamic-callable.md&quot;&gt;@dynamicCallable&lt;/a&gt; that already help to run Python in Swift and run jupyter notebook.&lt;/p&gt;
+&lt;p&gt;I wonder what will be good to have same with JavaScript. I found &lt;a href=&quot;https://developer.apple.com/documentation/javascriptcore&quot;&gt;JavsScriptCore&lt;/a&gt; help execute JavaScript inside app for Apple platform.&lt;/p&gt;
+&lt;p&gt;NPM has a lot of packages that can be used for free and easy to install.
+Swift is a powerful and intuitive programming language that can be run both Apple’s device and Linux.&lt;/p&gt;
+&lt;p&gt;I just want to make import a little bit easier.&lt;/p&gt;
+&lt;p&gt;This solution would look like this:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;swift&quot;&gt;&lt;pre class=&quot;language-swift&quot;&gt;&lt;code class=&quot;language-swift&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;JavaScriptCore&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; jsSource &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;var testFunct = function(message) { return \&quot;Test Message: \&quot; + message;}&quot;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; context &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;JSContext&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+context&lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;evaluateScript&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;jsSource&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; testFunction &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; context&lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;objectForKeyedSubscript&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;testFunct&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; result &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; testFunction&lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;call&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;withArguments&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;the message&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// result would be Test Message: the message.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br/&gt;
+&lt;p&gt;Yeah, look nice.
+But it would be good to have some sort of &lt;code class=&quot;language-text&quot;&gt;import&lt;/code&gt; or &lt;code class=&quot;language-text&quot;&gt;require&lt;/code&gt; to fast import and use.&lt;/p&gt;
+&lt;p&gt;Like this one:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;swift&quot;&gt;&lt;pre class=&quot;language-swift&quot;&gt;&lt;code class=&quot;language-swift&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// here `arr-diff` will return different between two passed arrays&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; arrDiff &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;“arr&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;diff”&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; diff &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;arrDiff&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// diff will hold array of diffrenece and will be equal to `[1, 3]`&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;*&lt;a href=&quot;https://www.npmjs.com/package/arr-diff&quot;&gt;arr-diff&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;What we can have right now?&lt;/h2&gt;
+&lt;p&gt;JavaScript.Swift provides an API to &lt;code class=&quot;language-text&quot;&gt;import&lt;/code&gt; JS code.
+We need a simple working bridge.
+Use it to import JavaScript code.&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;swift&quot;&gt;&lt;pre class=&quot;language-swift&quot;&gt;&lt;code class=&quot;language-swift&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;JavaScriptSwift&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; context &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;JavaScriptSwift&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;try&lt;/span&gt; context&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;importSafe&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;&quot;
+&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; swiftLib &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    name&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;JavaScrip.swift&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    organizers&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            name&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Matvii&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+            twitter&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;@hodovani&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+            email&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;matvii@hodovani.uk&quot;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            name&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Max&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+            twitter&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;@maxdesiatov&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+            email&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;max@desiatov.com&quot;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;&quot;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; conference &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; context&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;swiftLib&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;name
+&lt;span class=&quot;token comment&quot;&gt;// conference will be &quot;JavaScript.swift&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br/&gt;
+&lt;p&gt;This &lt;code class=&quot;language-text&quot;&gt;import&lt;/code&gt; will work only for one file package but it can be improved in future.
+See more examples &lt;a href=&quot;https://github.com/hodovani/JavaScript.swift/blob/master/Tests/JavaScriptSwiftTests/JavaScriptSwiftTests.swift&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;What’s the future roadmap?&lt;/h2&gt;
+&lt;p&gt;In future we will have:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;code class=&quot;language-text&quot;&gt;import&lt;/code&gt; that we need.&lt;/li&gt;
+&lt;li&gt;The &lt;code class=&quot;language-text&quot;&gt;import&lt;/code&gt; that will allow us to call methods from npm package. And give ability to import any package from npm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;It was interesting to me to dive into the Swift world. I plan to learn more and share with you.&lt;/p&gt;
+&lt;p&gt;Please leave feedback on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/hodovani/JavaScript.swift&quot;&gt;Github&lt;/a&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/hodovani&quot;&gt;Twitter&lt;/a&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;matvii@hodovani.uk&quot;&gt;Mail&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks, &lt;a href=&quot;https://twitter.com/maxdesiatov&quot;&gt;Max&lt;/a&gt; for code review and inspiration&lt;/p&gt;</content:encoded></item></channel></rss>
