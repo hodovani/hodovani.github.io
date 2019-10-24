@@ -1,21 +1,59 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Matvii Hodovaniuk]]></title><description><![CDATA[Personal blog by Matvii Hodovaniuk.]]></description><link>https://matvii.hodovani.uk/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 10 Feb 2019 19:06:48 GMT</lastBuildDate><item><title><![CDATA[JavaScript.swift]]></title><description><![CDATA[How to make importing JavaScript package in Swift easier? Check the  code What problem does JavaScript.swift solve? I work mostly with…]]></description><link>https://matvii.hodovani.uk//javascriptswift/</link><guid isPermaLink="false">https://matvii.hodovani.uk//javascriptswift/</guid><pubDate>Sat, 02 Feb 2019 01:02:03 GMT</pubDate><content:encoded>&lt;p&gt;How to make importing JavaScript package in Swift easier?&lt;/p&gt;
-&lt;p&gt;Check the &lt;a href=&quot;https://github.com/hodovani/JavaScript.swift&quot;&gt;code&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Matvii Hodovaniuk]]></title><description><![CDATA[Personal blog by Matvii Hodovaniuk.]]></description><link>https://matvii.hodovani.uk/</link><generator>RSS for Node</generator><lastBuildDate>Thu, 24 Oct 2019 14:13:50 GMT</lastBuildDate><item><title><![CDATA[Human Behavioral Biology 01 Introduction]]></title><description><![CDATA[What is it? This post is part of a series summarizing Human Behavioral Biology, taught by Robert Sapolsky at Stanford University in 201…]]></description><link>https://matvii.hodovani.uk//HumanBehavioralBiology01/</link><guid isPermaLink="false">https://matvii.hodovani.uk//HumanBehavioralBiology01/</guid><pubDate>Thu, 24 Oct 2019 01:02:03 GMT</pubDate><content:encoded>&lt;h3&gt;What is it?&lt;/h3&gt;
+&lt;p&gt;This post is part of a series summarizing Human Behavioral Biology, taught by Robert Sapolsky at Stanford University in 2010. Lectures videos are &lt;a href=&quot;https://www.youtube.com/playlist?list=PL848F2368C90DDC3D&quot;&gt;available for free online&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Why does it exist?&lt;/h3&gt;
+&lt;p&gt;The purpose of this series is to practice in collecting and obtaining information to zip it into a smaller size.&lt;/p&gt;
+&lt;h3&gt;Human Behavioral Biology - 01 - Introduction&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Sometimes the stuff that’s going in a body can dramatically influence what goes on in a brain or sometimes what is going in a brain can affect a body.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4&gt;Buckets&lt;/h4&gt;
+&lt;p&gt;Sapolsky starts by describing how our brains think about everything.
+He explains the concept of categories - the boundaries around ideas. This way of thinking has an effect on our language, our abilities to memorise and our ability to see the “big picture”.&lt;/p&gt;
+&lt;p&gt;For example, the colour continuum has numerous colours. However, we use boundaries to refer to an exact interval on the continuum. The categories we created applied boundaries to a continuum can help us to remember the colour or it can lead to lose a difference between two that drop in one interval or category.&lt;/p&gt;
+&lt;p&gt;A researcher shows people a picture of 3 well-known figures: triangle, circle, square and one blob and later asks them if they have seen this figure before. A summary of the experiment is that a person who is being tested gets better results when they recognise a familiar shape that is equal to a well-known category.&lt;/p&gt;
+&lt;p&gt;Sapolsky explains that we can miss the difference between two objects when we create a category for them. The process of putting something in one category includes a step where we cut off some properties of the subject and look only on properties that we want to be for every object in the particular category.&lt;/p&gt;
+&lt;p&gt;We take a continuum and break it into boundaries. Why do we do that? Because it makes it easier to store the information away. Instead of remembering the full features of something, we can say it’s a thing from a category. It can be advantageous. It makes it easier to remember fewer facts. We can create a boundary for categories. However, there is a possible trap, it is there on the boundary. Properties can be very close near each other on the observable continuum, but the boundary creates a separation between them.&lt;/p&gt;
+&lt;p&gt;The problem with categorical thinking appears when we are paying too much attention to categories, and we can’t differentiate two facts that fall within the same category.&lt;/p&gt;
+&lt;p&gt;When we are paying too much attention to boundaries, we don’t see the big picture. &lt;/p&gt;
+&lt;p&gt;It might be handy to not forget to go upper to the big picture and down to category subject.&lt;/p&gt;
+&lt;h4&gt;Three intellectual challenges&lt;/h4&gt;
+&lt;p&gt;There are three intellectual challenges we will face throughout this course:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;em&gt;We must accept that we are not more than animals&lt;/em&gt;
+Female hamsters archive menstrual synchronisation through the air-born pheromones (The Welsley Effect). Also, the same happens to female human. We often appear to be like everyone else except some things happen differently.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;The same area of the brain is lit up in a chess grandmaster who makes a winning move and a baboon who kill its rival.&lt;/em&gt;
+We, humans, use our psychology in unique ways. We can get stressed reading about a character in a novel!&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;We do some things that are entirely different from the other animals.&lt;/em&gt;
+We, as humans, often do things that are not remotely similar to the things other animals do. We have regular non-reproductive sex, and we talk about it. But it seems like animals also have non-reproductive sex. &lt;a href=&quot;https://en.wikipedia.org/wiki/Non-reproductive_sexual_behavior_in_animals&quot;&gt;source-link&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;Summary&lt;/h4&gt;
+&lt;p&gt;Recognising circumstances where there is nothing fancy about us whatsoever. We are just like every other animal out there. So where the challenge is to accept that.&lt;/p&gt;
+&lt;p&gt;Everyone needs to be a behavioural biologist. It is useful to be informed about behavioural biology if we are, for example:
+Serving on a jury. “What was the cause of the behaviour?”
+Voting: “Should we spend money on that? Is it valuable and solvable?”
+Are you dealing with depression in the family: “What is causing it? What can we do about it? How do we deal with it?”&lt;/p&gt;
+&lt;p&gt;References:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=NNnIGh9g6fA&amp;#x26;list=PL848F2368C90DDC3D&amp;#x26;index=1&quot;&gt;Original Content&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Please leave feedback on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/hodovani&quot;&gt;Twitter&lt;/a&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;matvii@hodovani.uk&quot;&gt;Mail&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[JavaScript.swift]]></title><description><![CDATA[How to make import JavaScript package in Swift easier? Check code here  Source What problem does JavaScript.swift solve? I work mostly with…]]></description><link>https://matvii.hodovani.uk//javascriptswift/</link><guid isPermaLink="false">https://matvii.hodovani.uk//javascriptswift/</guid><pubDate>Sat, 02 Feb 2019 01:02:03 GMT</pubDate><content:encoded>&lt;p&gt;How to make import JavaScript package in Swift easier?&lt;/p&gt;
+&lt;p&gt;Check code here &lt;a href=&quot;https://github.com/hodovani/JavaScript.swift&quot;&gt;Source&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;What problem does JavaScript.swift solve?&lt;/h2&gt;
-&lt;p&gt;I work mostly with JavaScript and using packages from &lt;a href=&quot;https://www.npmjs.com&quot;&gt;npm&lt;/a&gt; is common solution for faster idea prototyping.
-It is quite hard to not find package for your problem on npm.&lt;/p&gt;
-&lt;p&gt;I tried &lt;a href=&quot;https://developer.apple.com/swift/&quot;&gt;Swift&lt;/a&gt; for last two months and found that amount of ready to use solutions in Swift package managers is smaller than in npm.&lt;/p&gt;
-&lt;p&gt;npm has a lot of packages that can be used for free and easy to install.
-Swift is a powerful and intuitive programming language that can be run on both Apple’s devices and Linux.&lt;/p&gt;
-&lt;p&gt;In Swift 5.0 we’ll see &lt;a href=&quot;https://github.com/apple/swift-evolution/blob/master/proposals/0216-dynamic-callable.md&quot;&gt;@dynamicCallable&lt;/a&gt; implemented, which previously helped calling Python from Swift and runing &lt;a href=&quot;https://github.com/google/swift-jupyter&quot;&gt;Jupyter notebook&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;I wonder if it will be good to have same with JavaScript. I found that &lt;a href=&quot;https://developer.apple.com/documentation/javascriptcore&quot;&gt;JavaScriptCore&lt;/a&gt; helps executing JavaScript inside apps for Apple platforms.&lt;/p&gt;
+&lt;p&gt;I work mostly with JavaScript and use packages from &lt;a href=&quot;https://www.npmjs.com&quot;&gt;NPM&lt;/a&gt; is common solution for faster idea prototype.
+It is quite hard to not find package for your problem on NPM.&lt;/p&gt;
+&lt;p&gt;I tried &lt;a href=&quot;https://developer.apple.com/swift/&quot;&gt;Swift&lt;/a&gt; for last two months and found that amount of ready solution in swift package managers is smaller than in NPM.&lt;/p&gt;
+&lt;p&gt;Also in Swift 5.0 will be &lt;a href=&quot;https://github.com/apple/swift-evolution/blob/master/proposals/0216-dynamic-callable.md&quot;&gt;@dynamicCallable&lt;/a&gt; that already help to run Python in Swift and run jupyter notebook.&lt;/p&gt;
+&lt;p&gt;I wonder what will be good to have same with JavaScript. I found &lt;a href=&quot;https://developer.apple.com/documentation/javascriptcore&quot;&gt;JavsScriptCore&lt;/a&gt; help execute JavaScript inside app for Apple platform.&lt;/p&gt;
+&lt;p&gt;NPM has a lot of packages that can be used for free and easy to install.
+Swift is a powerful and intuitive programming language that can be run both Apple’s device and Linux.&lt;/p&gt;
 &lt;p&gt;I just want to make import a little bit easier.&lt;/p&gt;
 &lt;p&gt;This solution would look like this:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;swift&quot;&gt;&lt;pre class=&quot;language-swift&quot;&gt;&lt;code class=&quot;language-swift&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;JavaScriptCore&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; jsSource &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;&quot;
-  &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; testFunct &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;message&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-     &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; \&quot;&lt;span class=&quot;token builtin&quot;&gt;Test&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;Message&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; \&quot; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; message&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;&quot;
+&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; jsSource &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;var testFunct = function(message) { return \&quot;Test Message: \&quot; + message;}&quot;&lt;/span&gt;
 &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; context &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;JSContext&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 context&lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;evaluateScript&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;jsSource&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; testFunction &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; context&lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;objectForKeyedSubscript&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;testFunct&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
@@ -25,10 +63,10 @@ context&lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt;&lt;span class
 &lt;p&gt;Yeah, look nice.
 But it would be good to have some sort of &lt;code class=&quot;language-text&quot;&gt;import&lt;/code&gt; or &lt;code class=&quot;language-text&quot;&gt;require&lt;/code&gt; to fast import and use.&lt;/p&gt;
 &lt;p&gt;Like this one:&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;swift&quot;&gt;&lt;pre class=&quot;language-swift&quot;&gt;&lt;code class=&quot;language-swift&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// here `arr-diff` will return difference between two passed arrays&lt;/span&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;swift&quot;&gt;&lt;pre class=&quot;language-swift&quot;&gt;&lt;code class=&quot;language-swift&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// here `arr-diff` will return different between two passed arrays&lt;/span&gt;
 &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; arrDiff &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;“arr&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;diff”&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; diff &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;arrDiff&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;token comment&quot;&gt;// diff will hold array of difference and will be equal to `[1, 3]`&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;token comment&quot;&gt;// diff will hold array of diffrenece and will be equal to `[1, 3]`&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;*&lt;a href=&quot;https://www.npmjs.com/package/arr-diff&quot;&gt;arr-diff&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;What we can have right now?&lt;/h2&gt;
 &lt;p&gt;JavaScript.Swift provides an API to &lt;code class=&quot;language-text&quot;&gt;import&lt;/code&gt; JS code.
@@ -41,7 +79,7 @@ Use it to import JavaScript code.&lt;/p&gt;
 &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; context &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;JavaScriptSwift&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;token keyword&quot;&gt;try&lt;/span&gt; context&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;importSafe&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;&quot;
 &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; swiftLib &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    name&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;JavaScript.swift&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    name&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;JavaScrip.swift&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
     organizers&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
         &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
             name&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Matvii&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
