@@ -6,7 +6,8 @@
     "build": "eleventy",
     "watch": "eleventy --watch",
     "serve": "eleventy --serve",
-    "debug": "DEBUG=* eleventy"
+    "debug": "DEBUG=* eleventy",
+    "deploy": "cp -r -v _site/* ../"
   },
   "repository": {
     "type": "git",
