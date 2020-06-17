@@ -24,6 +24,7 @@ Please, follow the steps in &lt;a href=&quot;http://readme.md/&quot;&gt;README.m
 &lt;p&gt;I made changes to &lt;code&gt;.eleventy.js&lt;/code&gt; to build blog to the root folder. I want to&lt;br&gt;
 have one repository that is responsible for the blog. So this one contains&lt;br&gt;
 builded blog and a a source code.&lt;/p&gt;
+&lt;p&gt;I added Google Analytics to track and report website traffic. Here is a &lt;a href=&quot;https://support.google.com/analytics/answer/1008080?hl=en&quot;&gt;link&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;You can find previous versions of this blog &lt;a href=&quot;https://github.com/hodovani/hodovani.github.io/commits/master/_source/posts/firstpost.md&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Hope this was helpful.&lt;br&gt;
 Feel free to write to me.&lt;/p&gt;

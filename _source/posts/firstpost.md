@@ -18,6 +18,8 @@ I made changes to `.eleventy.js` to build blog to the root folder. I want to
 have one repository that is responsible for the blog. So this one contains
 builded blog and a a source code.
 
+I added Google Analytics to track and report website traffic. Here is a [link](https://support.google.com/analytics/answer/1008080?hl=en)
+
 You can find previous versions of this blog [here](https://github.com/hodovani/hodovani.github.io/commits/master/_source/posts/firstpost.md)
 
 Hope this was helpful.
