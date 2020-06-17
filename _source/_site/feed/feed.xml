@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Matvii Hodovaniuk Blog</title>
+	<subtitle>I am writing about my experiences.</subtitle>
+	
+	<link href="http://matvii.hodovani.uk/feed/feed.xml" rel="self"/>
+	<link href="http://matvii.hodovani.uk/"/>
+	<updated>2018-05-01T03:00:00+03:00</updated>
+	<id>http://matvii.hodovani.uk/</id>
+	<author>
+		<name>Matvii Hodovaniuk</name>
+		<email>matvii@hodovani.uk</email>
+	</author>
+	
+	<entry>
+		<title>How to build this blog?</title>
+		<link href="http://matvii.hodovani.uk/posts/firstpost/"/>
+		<updated>2018-05-01T03:00:00+03:00</updated>
+		<id>http://matvii.hodovani.uk/posts/firstpost/</id>
+		<content type="html">&lt;p&gt;Use this repo: &lt;a href=&quot;https://github.com/11ty/eleventy-base-blog&quot;&gt;https://github.com/11ty/eleventy-base-blog&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
+</feed>
