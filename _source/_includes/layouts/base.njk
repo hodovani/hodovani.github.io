@@ -5,14 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ renderData.title or title or metadata.title }}</title>
     <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
-    <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
-    <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
     <link rel="icon" type="image/png" href="./img/favicon.png"/>
   </head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128032414-1"></script>
-  <script>
+  <script async rel="preconnect" src="https://www.googletagmanager.com/gtag/js?id=UA-128032414-1"></script>
+  <script async rel="preconnect">
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
@@ -39,4 +37,12 @@
 
     <!-- Current page: {{ page.url | url }} -->
   </body>
+  {% set css %}{% include "../../css/index.css" %}{% endset %}
+  <style lazyload>
+    {{ css | cssmin | safe }}
+  </style>
+    {% set css %}{% include "../../css/prism-base16-monokai.dark.css" %}{% endset %}
+  <style lazyload>
+    {{ css | cssmin | safe }}
+  </style>
 </html>
