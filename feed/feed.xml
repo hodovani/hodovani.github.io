@@ -5,7 +5,7 @@
 	
 	<link href="http://matvii.hodovani.uk/feed/feed.xml" rel="self"/>
 	<link href="http://matvii.hodovani.uk/"/>
-	<updated>2020-06-17T03:00:00+03:00</updated>
+	<updated>2020-06-18T03:00:00+03:00</updated>
 	<id>http://matvii.hodovani.uk/</id>
 	<author>
 		<name>Matvii Hodovaniuk</name>
@@ -26,8 +26,20 @@ have one repository that is responsible for the blog. So this one contains&lt;br
 builded blog and a a source code.&lt;/p&gt;
 &lt;p&gt;I added Google Analytics to track and report website traffic. Here is a &lt;a href=&quot;https://support.google.com/analytics/answer/1008080?hl=en&quot;&gt;link&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;You can find previous versions of this blog &lt;a href=&quot;https://github.com/hodovani/hodovani.github.io/commits/master/_source/posts/firstpost.md&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Hope this was helpful.&lt;br&gt;
-Feel free to write to me.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>How to automate drawing?</title>
+		<link href="http://matvii.hodovani.uk/posts/how-to-automate-drawing/"/>
+		<updated>2020-06-18T03:00:00+03:00</updated>
+		<id>http://matvii.hodovani.uk/posts/how-to-automate-drawing/</id>
+		<content type="html">&lt;p&gt;I used &lt;a href=&quot;https://www.thingiverse.com/thing:2349232&quot;&gt;this&lt;/a&gt; tutorial to assemble a drawing machine.&lt;br&gt;
+Please follow the instructions inside the repo to make the same.&lt;/p&gt;
+&lt;p&gt;The cost of parts are approximately 100$. But you have to buy additional tools to assemble the machine.&lt;/p&gt;
+&lt;p&gt;Here is a video that shows my result.&lt;br&gt;
+The next step would be to add a servo to support Z axis.&lt;/p&gt;
+&lt;iframe src=&quot;https://www.youtube.com/embed/jHqsLbBZ8Ak&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 </content>
 	</entry>
 </feed>
