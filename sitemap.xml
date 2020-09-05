@@ -32,6 +32,11 @@
   </url>
   
   <url>
+    <loc>http://matvii.hodovani.uk/tags/notes/</loc>
+    <lastmod>2020-06-16</lastmod>
+  </url>
+  
+  <url>
     <loc>http://matvii.hodovani.uk/tags/drawing-automation/</loc>
     <lastmod>2020-06-16</lastmod>
   </url>
@@ -44,5 +49,10 @@
   <url>
     <loc>http://matvii.hodovani.uk/posts/how-to-automate-drawing/</loc>
     <lastmod>2020-06-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://matvii.hodovani.uk/posts/pragmatic-philosophy/</loc>
+    <lastmod>2020-09-05</lastmod>
   </url>
 </urlset>

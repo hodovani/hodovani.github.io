@@ -5,7 +5,7 @@
 	
 	<link href="http://matvii.hodovani.uk/feed/feed.xml" rel="self"/>
 	<link href="http://matvii.hodovani.uk/"/>
-	<updated>2020-06-18T03:00:00+03:00</updated>
+	<updated>2020-09-05T03:00:00+03:00</updated>
 	<id>http://matvii.hodovani.uk/</id>
 	<author>
 		<name>Matvii Hodovaniuk</name>
@@ -40,6 +40,88 @@ Please follow the instructions inside the repo to make the same.&lt;/p&gt;
 &lt;p&gt;Here is a video that shows my result.&lt;br&gt;
 The next step would be to add a servo to support Z axis.&lt;/p&gt;
 &lt;iframe src=&quot;https://www.youtube.com/embed/jHqsLbBZ8Ak&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>A Pragmatic Philosophy</title>
+		<link href="http://matvii.hodovani.uk/posts/pragmatic-philosophy/"/>
+		<updated>2020-09-05T03:00:00+03:00</updated>
+		<id>http://matvii.hodovani.uk/posts/pragmatic-philosophy/</id>
+		<content type="html">&lt;p&gt;Why spend your life developing software unless you care about doing it well?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Think! About Your Work&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Turn off the autopilot and take control. Constantly critique and appraise your work.&lt;/p&gt;
+&lt;h2 id=&quot;the-cat-ate-my-source-code&quot;&gt;The Cat Ate My Source Code &lt;a class=&quot;direct-link&quot; href=&quot;#the-cat-ate-my-source-code&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Provide Options, Don&#39;t Make Lame Excuses&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Instead of excuses, provide options. Don&#39;t say it can&#39;t be done; explain what can be done to salvage the situation.&lt;/p&gt;
+&lt;h2 id=&quot;software-entropy&quot;&gt;Software Entropy &lt;a class=&quot;direct-link&quot; href=&quot;#software-entropy&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;One broken window, left unrepaired for any substantial length of time, instills in the inhabitants of the building a sense of abandonment—a sense that the powers that be don&#39;t care about the building. So another window gets broken. People start littering. Graffiti appears. Serious structural damage begins. In a relatively short space of time, the building becomes damaged beyond the owner&#39;s desire to fix it, and the sense of abandonment becomes reality.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Don&#39;t Live with Broken Windows&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Don&#39;t mess up the carpet when fixing the broken window.&lt;/p&gt;
+&lt;h2 id=&quot;stone-soup-and-boiled-frogs&quot;&gt;Stone Soup and Boiled Frogs &lt;a class=&quot;direct-link&quot; href=&quot;#stone-soup-and-boiled-frogs&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;It&#39;s time to bring out the stones. Work out what you can reasonably ask for. Develop it well. Once you&#39;ve got it, show people, and let them marvel. Then say &amp;quot;of course, it would be better if we added….&amp;quot;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;People find it easier to join an ongoing success.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Be a Catalyst for Change&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Most software disasters start out too small to notice, and most project overruns happen a day at a time.&lt;/p&gt;
+&lt;p&gt;If you take a frog and drop it into boiling water, it will jump straight back out again. However, if you place the frog in a pan of cold water, then gradually heat it, the frog won&#39;t notice the slow increase in temperature and will stay put until cooked.&lt;/p&gt;
+&lt;p&gt;Don&#39;t be like the frog. Keep an eye on the big picture.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Remember the Big Picture&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;good-enough-soup&quot;&gt;Good enough soup &lt;a class=&quot;direct-link&quot; href=&quot;#good-enough-soup&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The scope and quality of the system you produce should be specified as part of that system&#39;s requirements.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Make Quality a Requirements Issue&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Great software today is often preferable to perfect software tomorrow. &lt;strong&gt;Know When to Stop&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;your-knowledge-portfolio&quot;&gt;Your Knowledge Portfolio &lt;a class=&quot;direct-link&quot; href=&quot;#your-knowledge-portfolio&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;An investment in knowledge always pays the best interest.&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Serious investors invest regularly—as a habit.&lt;/li&gt;
+&lt;li&gt;Diversification is the key to long-term success.&lt;/li&gt;
+&lt;li&gt;Smart investors balance their portfolios between conservative and high-risk,high-reward investments.&lt;/li&gt;
+&lt;li&gt;Investors try to buy low and sell high for maximum return.&lt;/li&gt;
+&lt;li&gt;Portfolios should be reviewed and rebalanced periodically&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;building-your-portfolio&quot;&gt;Building Your Portfolio &lt;a class=&quot;direct-link&quot; href=&quot;#building-your-portfolio&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Invest regularly&lt;/li&gt;
+&lt;li&gt;Diversify&lt;/li&gt;
+&lt;li&gt;Manage risk&lt;/li&gt;
+&lt;li&gt;Buy low, sell High&lt;/li&gt;
+&lt;li&gt;Review and rebalance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Invest Regularly in Your Knowledge Portfolio&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;goals&quot;&gt;Goals &lt;a class=&quot;direct-link&quot; href=&quot;#goals&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Learn at least one new language every year.&lt;/li&gt;
+&lt;li&gt;Read a technical book each quarter.&lt;/li&gt;
+&lt;li&gt;Read nontechnical books, too.&lt;/li&gt;
+&lt;li&gt;Take classes.&lt;/li&gt;
+&lt;li&gt;Participate in local user groups.&lt;/li&gt;
+&lt;li&gt;Experiment with different environments.&lt;/li&gt;
+&lt;li&gt;Stay current.&lt;/li&gt;
+&lt;li&gt;Get wired.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You need to ensure that the knowledge in your portfolio is accurate and unswayed by either vendor or media hype.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Critically Analyze What You Read and Hear&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;communicate&quot;&gt;Communicate &lt;a class=&quot;direct-link&quot; href=&quot;#communicate&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Know what you want to say. Plan what you want to say. Write an outline.&lt;/li&gt;
+&lt;li&gt;Know your audience. (WISDOM acrostic)
+&lt;ul&gt;
+&lt;li&gt;What they &lt;strong&gt;Want&lt;/strong&gt;?&lt;/li&gt;
+&lt;li&gt;What is their &lt;strong&gt;Interest&lt;/strong&gt;?&lt;/li&gt;
+&lt;li&gt;How &lt;strong&gt;Sophisticated&lt;/strong&gt; are they?&lt;/li&gt;
+&lt;li&gt;How much &lt;strong&gt;Detail&lt;/strong&gt; they want?&lt;/li&gt;
+&lt;li&gt;Who do you want to &lt;strong&gt;Own&lt;/strong&gt; the information?&lt;/li&gt;
+&lt;li&gt;How can you &lt;strong&gt;Motivate&lt;/strong&gt; them to listen?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Choose your moment: Understanding when your audience needs to hear your information.&lt;/li&gt;
+&lt;li&gt;Choose a style: Just the facts, large bound reports, a simple memo.&lt;/li&gt;
+&lt;li&gt;Make it look good: Add good-looking vehicle to your important ideas and engage your audience.&lt;/li&gt;
+&lt;li&gt;Involve your audience: Get their feedback, and pick their brains.&lt;/li&gt;
+&lt;li&gt;Be a listener: Encourage people to talk by asking questions.&lt;/li&gt;
+&lt;li&gt;Get back to people: Keep people informed afterwards.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;It&#39;s Both What You Say and the Way You Say It&lt;/strong&gt;&lt;/p&gt;
 </content>
 	</entry>
 </feed>
