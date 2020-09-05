@@ -13,6 +13,97 @@
 	</author>
 	
 	<entry>
+		<title>The Basic Tools</title>
+		<link href="http://matvii.hodovani.uk/posts/basic-tools/"/>
+		<updated>2020-06-17T03:00:00+03:00</updated>
+		<id>http://matvii.hodovani.uk/posts/basic-tools/</id>
+		<content type="html">&lt;p&gt;&lt;strong&gt;Keep Knowledge in plain text&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;14.-the-power-of-plain-text&quot;&gt;14.-The Power of Plain Text &lt;a class=&quot;direct-link&quot; href=&quot;#14.-the-power-of-plain-text&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;drawbacks&quot;&gt;Drawbacks &lt;a class=&quot;direct-link&quot; href=&quot;#drawbacks&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;more space&lt;/li&gt;
+&lt;li&gt;computationally more expensive&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;the-power-of-text&quot;&gt;The Power of Text &lt;a class=&quot;direct-link&quot; href=&quot;#the-power-of-text&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Insurance against obsolescence: you will always have a chance to be able to use text.&lt;/li&gt;
+&lt;li&gt;Leverage: Virtually every tool in the computing can operate on plain text.&lt;/li&gt;
+&lt;li&gt;Easier testing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;15.-shell-games&quot;&gt;15.-Shell Games &lt;a class=&quot;direct-link&quot; href=&quot;#15.-shell-games&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Use the power of command Shells&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Can&#39;t you do everything equally well by pointing and clicking in a GUI?&lt;br&gt;
+&lt;strong&gt;No&lt;/strong&gt;. A benefit of GUIs is &lt;em&gt;WYSIWYG&lt;/em&gt;—what you see is what you get. The disadvantage is &lt;em&gt;WYSIAYG&lt;/em&gt;—what you see is all you get.&lt;/p&gt;
+&lt;h2 id=&quot;16.-power-editing&quot;&gt;16.-Power Editing &lt;a class=&quot;direct-link&quot; href=&quot;#16.-power-editing&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Use a Single Editor Well&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;editor-%22must%22-features&quot;&gt;Editor &amp;quot;must&amp;quot; features &lt;a class=&quot;direct-link&quot; href=&quot;#editor-%22must%22-features&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Configurable&lt;/li&gt;
+&lt;li&gt;Extensible&lt;/li&gt;
+&lt;li&gt;Programmable&lt;/li&gt;
+&lt;li&gt;Syntax highlighting&lt;/li&gt;
+&lt;li&gt;Auto-completion&lt;/li&gt;
+&lt;li&gt;Auto-indentation&lt;/li&gt;
+&lt;li&gt;Initial code or document boilerplate&lt;/li&gt;
+&lt;li&gt;Tie-in to help systems&lt;/li&gt;
+&lt;li&gt;IDE-like features (compile, debug, and so on)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;17.-source-code-control&quot;&gt;17.-Source Code Control &lt;a class=&quot;direct-link&quot; href=&quot;#17.-source-code-control&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Always Use Source Code Control&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;18.-debugging&quot;&gt;18.-Debugging &lt;a class=&quot;direct-link&quot; href=&quot;#18.-debugging&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Fix the Problem, Not the Blame&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Don&#39;t Panic&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;a-debugging-mindset&quot;&gt;A Debugging Mindset &lt;a class=&quot;direct-link&quot; href=&quot;#a-debugging-mindset&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Don&#39;t waste a single neuron on the train of thought that begins &amp;quot;but that can&#39;t happen&amp;quot; because quite clearly it can, and has.&lt;br&gt;
+Try to discover the root cause of a problem, not just this particular appearance of it.&lt;/p&gt;
+&lt;h3 id=&quot;where-to-start&quot;&gt;Where to Start &lt;a class=&quot;direct-link&quot; href=&quot;#where-to-start&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Before you start, check the warnings or better remove all of them.&lt;/li&gt;
+&lt;li&gt;You first need to be accurate in your observations and data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;debugging-strategies&quot;&gt;Debugging Strategies &lt;a class=&quot;direct-link&quot; href=&quot;#debugging-strategies&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;h4 id=&quot;bug-reproduction&quot;&gt;Bug Reproduction &lt;a class=&quot;direct-link&quot; href=&quot;#bug-reproduction&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;The best way to start fixing a bug is to make it reproducible.&lt;/li&gt;
+&lt;li&gt;The second best way is to make it reproducible with a &lt;em&gt;single command&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;visualize-your-data&quot;&gt;Visualize Your Data &lt;a class=&quot;direct-link&quot; href=&quot;#visualize-your-data&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Use the tools that the debugger offers you. Pen and paper can also help.&lt;/p&gt;
+&lt;h4 id=&quot;tracing&quot;&gt;Tracing &lt;a class=&quot;direct-link&quot; href=&quot;#tracing&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Now what happens before and after.&lt;/p&gt;
+&lt;h4 id=&quot;rubber-ducking&quot;&gt;Rubber Ducking &lt;a class=&quot;direct-link&quot; href=&quot;#rubber-ducking&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Explain the bug to someone else.&lt;/p&gt;
+&lt;h4 id=&quot;process-of-elimination&quot;&gt;Process of Elimination &lt;a class=&quot;direct-link&quot; href=&quot;#process-of-elimination&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;It is possible that a bug exists in the OS, the compiler, or a third-party product—but this should not be your first thought.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&amp;quot;select&amp;quot; Isn&#39;t Broken&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;the-element-of-surprise&quot;&gt;The Element of Surprise &lt;a class=&quot;direct-link&quot; href=&quot;#the-element-of-surprise&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Don&#39;t Assume It—Prove It&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;debugging-checklist&quot;&gt;Debugging Checklist &lt;a class=&quot;direct-link&quot; href=&quot;#debugging-checklist&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Is the problem being reported a direct result of the underlying bug, or merely asymptom?&lt;/li&gt;
+&lt;li&gt;Is the bug really in the compiler? Is it in the OS? Or is it in your code?&lt;/li&gt;
+&lt;li&gt;If you explained this problem in detail to a coworker, what would you say?&lt;/li&gt;
+&lt;li&gt;If the suspect code passes its unit tests, are the tests complete enough? What happens if you run the unit test with this data?&lt;/li&gt;
+&lt;li&gt;Do the conditions that caused this bug exist anywhere else in the system?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;19.-text-manipulation&quot;&gt;19.-Text Manipulation &lt;a class=&quot;direct-link&quot; href=&quot;#19.-text-manipulation&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Learn a Text Manipulation Language&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;20.-code-generators&quot;&gt;20.-Code Generators &lt;a class=&quot;direct-link&quot; href=&quot;#20.-code-generators&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Write Code That Writes Code&lt;/strong&gt;&lt;br&gt;
+Two main types of code generators:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Passive code generators&lt;/strong&gt; are run once to produce a result. They are basically parameterized templates, generating a given output from a set of inputs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Active code generators&lt;/strong&gt; are used each time their results are required. Take a single representation of some piece of knowledge and convert it into all the forms your application needs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;code-generators-needn&#39;t-be-complex&quot;&gt;Code Generators Needn&#39;t Be Complex &lt;a class=&quot;direct-link&quot; href=&quot;#code-generators-needn&#39;t-be-complex&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Keep the input format simple, and the code generator becomes simple.&lt;/p&gt;
+&lt;h3 id=&quot;code-generators-needn&#39;t-generate-code&quot;&gt;Code Generators Needn&#39;t Generate Code &lt;a class=&quot;direct-link&quot; href=&quot;#code-generators-needn&#39;t-generate-code&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;You can use code generators to write just about any output: HTML, XML, plain text - any text that might be an input somewhere&lt;br&gt;
+else in your project.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
 		<title>How to build this blog?</title>
 		<link href="http://matvii.hodovani.uk/posts/firstpost/"/>
 		<updated>2020-06-17T03:00:00+03:00</updated>
