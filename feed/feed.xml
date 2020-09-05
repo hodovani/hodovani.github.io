@@ -308,6 +308,74 @@ Practice incremental development, repeating the following steps:&lt;/p&gt;
 	</entry>
 	
 	<entry>
+		<title>A Pragmatic Paranoia</title>
+		<link href="http://matvii.hodovani.uk/posts/pragmatic-paranoia/"/>
+		<updated>2020-09-05T03:00:00+03:00</updated>
+		<id>http://matvii.hodovani.uk/posts/pragmatic-paranoia/</id>
+		<content type="html">&lt;p&gt;&lt;strong&gt;You can&#39;t write Perfect Software&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;No one in the brief history of computing has ever written a piece of perfect software.&lt;br&gt;
+Pragmatic Programmers don&#39;t trust themselves, either.&lt;/p&gt;
+&lt;h2 id=&quot;design-by-contract&quot;&gt;Design by Contract &lt;a class=&quot;direct-link&quot; href=&quot;#design-by-contract&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;A correct program is one that does no more and no less than it claims to do.&lt;br&gt;
+Use:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Preconditions&lt;/li&gt;
+&lt;li&gt;Postconditions&lt;/li&gt;
+&lt;li&gt;Invariants&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Design with Contracts&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Write &amp;quot;lazy&amp;quot; code: be strict in what you will accept before you begin, and promise as little as possible in return.&lt;/p&gt;
+&lt;h3 id=&quot;implementing-dbc&quot;&gt;Implementing DBC &lt;a class=&quot;direct-link&quot; href=&quot;#implementing-dbc&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Simply enumerating at design time:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;what the input domain range is&lt;/li&gt;
+&lt;li&gt;what the boundary conditions are&lt;/li&gt;
+&lt;li&gt;what the routine promises to deliver (and what it doesn&#39;t)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;assertions&quot;&gt;Assertions &lt;a class=&quot;direct-link&quot; href=&quot;#assertions&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;You can use assertions to apply DBC in some range. (Assertions are not propagated in subclasses)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;DBC enforce Crashing Early&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;invariants&quot;&gt;Invariants &lt;a class=&quot;direct-link&quot; href=&quot;#invariants&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Loop Invariants: Is true before and during the loop therefore also when the loop finishes&lt;/li&gt;
+&lt;li&gt;Semantic Invariants: ie the error should be on the side of not processing a transaction rather than processing a duplicate transaction.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;dead-programs-tell-no-lies&quot;&gt;Dead Programs Tell No Lies &lt;a class=&quot;direct-link&quot; href=&quot;#dead-programs-tell-no-lies&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;All errors give you information. Pragmatic Programmers tell themselves that if there is an error, something very, very bad has happened.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Crash Early&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;A dead program normally does a lot less damage than a crippled one.&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;When your code discovers that something that was supposed to be impossible just happened, your&lt;br&gt;
+program is no longer viable.&lt;/p&gt;
+&lt;h2 id=&quot;assertive-programming&quot;&gt;Assertive Programming &lt;a class=&quot;direct-link&quot; href=&quot;#assertive-programming&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;If It Can&#39;t Happen, Use Assertions to Ensure That It Won&#39;t&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Assertions are also useful checks on an algorithm&#39;s operation.&lt;/li&gt;
+&lt;li&gt;Don&#39;t use assertions in place of real error handling.&lt;/li&gt;
+&lt;li&gt;Leave Assertions Turned On, unless you have critical performance issues.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;when-to-use-exceptions&quot;&gt;When to Use Exceptions &lt;a class=&quot;direct-link&quot; href=&quot;#when-to-use-exceptions&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Use Exceptions for Exceptional Problems&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;what-is-exceptional%3F&quot;&gt;What Is Exceptional? &lt;a class=&quot;direct-link&quot; href=&quot;#what-is-exceptional%3F&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;The program must run if all the exception handlers are removed&lt;br&gt;
+If your code tries to open a file for reading and that file does not exist, should an exception be raised&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Yes: If the file should have been there&lt;/li&gt;
+&lt;li&gt;No: If you have no idea whether the file should exist or not&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;how-to-balance-resources&quot;&gt;How to Balance Resources &lt;a class=&quot;direct-link&quot; href=&quot;#how-to-balance-resources&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;When managing resources: memory, transactions, threads, flies, timers—all kinds of things with limited availability, we have to close, finish, delete, deallocate them when we are done.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Finish What You Start&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;nest-allocations&quot;&gt;Nest Allocations &lt;a class=&quot;direct-link&quot; href=&quot;#nest-allocations&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;1.-Deallocate resources in the opposite order to that in which you allocate them&lt;/li&gt;
+&lt;li&gt;2.-When allocating the same set of resources in different places in your code, always allocate them in the same order (prevent deadlocks)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;objects-and-exceptions&quot;&gt;Objects and Exceptions &lt;a class=&quot;direct-link&quot; href=&quot;#objects-and-exceptions&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Use &lt;code&gt;finally&lt;/code&gt; to free resources.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
 		<title>A Pragmatic Philosophy</title>
 		<link href="http://matvii.hodovani.uk/posts/pragmatic-philosophy/"/>
 		<updated>2020-09-05T03:00:00+03:00</updated>

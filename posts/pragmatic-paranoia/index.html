@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matvii Hodovaniuk Notes</title>
-    <meta name="Description" content="I am writing about my experiences.">
+    <title>A Pragmatic Paranoia</title>
+    <meta name="Description" content="Care About Your Craft.">
     <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Matvii Hodovaniuk Notes">
     <link rel="icon" type="image/png" href="./img/favicon.png"/>
   </head>
@@ -21,46 +21,78 @@
     <header>
       <h1 class="home"><a href="/">Matvii Hodovaniuk Notes</a></h1>
       <ul class="nav">
-        <li class="nav-item nav-item-active"><a href="/">Home</a></li>
+        <li class="nav-item"><a href="/">Home</a></li>
         <li class="nav-item"><a href="/posts/">Archive</a></li>
         <li class="nav-item"><a href="/about/">About Me</a></li>
       </ul>
     </header>
 
-    <main class="tmpl-home">
-      
-<h1>Latest 3 Posts</h1>
+    <main class="tmpl-post">
+      <h1>A Pragmatic Paranoia</h1>
+
+<p><strong>You can't write Perfect Software</strong></p>
+<p>No one in the brief history of computing has ever written a piece of perfect software.<br>
+Pragmatic Programmers don't trust themselves, either.</p>
+<h2 id="design-by-contract">Design by Contract <a class="direct-link" href="#design-by-contract">#</a></h2>
+<p>A correct program is one that does no more and no less than it claims to do.<br>
+Use:</p>
+<ul>
+<li>Preconditions</li>
+<li>Postconditions</li>
+<li>Invariants</li>
+</ul>
+<p><strong>Design with Contracts</strong></p>
+<p>Write &quot;lazy&quot; code: be strict in what you will accept before you begin, and promise as little as possible in return.</p>
+<h3 id="implementing-dbc">Implementing DBC <a class="direct-link" href="#implementing-dbc">#</a></h3>
+<p>Simply enumerating at design time:</p>
+<ul>
+<li>what the input domain range is</li>
+<li>what the boundary conditions are</li>
+<li>what the routine promises to deliver (and what it doesn't)</li>
+</ul>
+<h3 id="assertions">Assertions <a class="direct-link" href="#assertions">#</a></h3>
+<p>You can use assertions to apply DBC in some range. (Assertions are not propagated in subclasses)</p>
+<p><strong>DBC enforce Crashing Early</strong></p>
+<h3 id="invariants">Invariants <a class="direct-link" href="#invariants">#</a></h3>
+<ul>
+<li>Loop Invariants: Is true before and during the loop therefore also when the loop finishes</li>
+<li>Semantic Invariants: ie the error should be on the side of not processing a transaction rather than processing a duplicate transaction.</li>
+</ul>
+<h2 id="dead-programs-tell-no-lies">Dead Programs Tell No Lies <a class="direct-link" href="#dead-programs-tell-no-lies">#</a></h2>
+<p>All errors give you information. Pragmatic Programmers tell themselves that if there is an error, something very, very bad has happened.</p>
+<p><strong>Crash Early</strong></p>
+<p><code>A dead program normally does a lot less damage than a crippled one.</code></p>
+<p>When your code discovers that something that was supposed to be impossible just happened, your<br>
+program is no longer viable.</p>
+<h2 id="assertive-programming">Assertive Programming <a class="direct-link" href="#assertive-programming">#</a></h2>
+<p><strong>If It Can't Happen, Use Assertions to Ensure That It Won't</strong></p>
+<ul>
+<li>Assertions are also useful checks on an algorithm's operation.</li>
+<li>Don't use assertions in place of real error handling.</li>
+<li>Leave Assertions Turned On, unless you have critical performance issues.</li>
+</ul>
+<h2 id="when-to-use-exceptions">When to Use Exceptions <a class="direct-link" href="#when-to-use-exceptions">#</a></h2>
+<p><strong>Use Exceptions for Exceptional Problems</strong></p>
+<h3 id="what-is-exceptional%3F">What Is Exceptional? <a class="direct-link" href="#what-is-exceptional%3F">#</a></h3>
+<p>The program must run if all the exception handlers are removed<br>
+If your code tries to open a file for reading and that file does not exist, should an exception be raised</p>
+<ul>
+<li>Yes: If the file should have been there</li>
+<li>No: If you have no idea whether the file should exist or not</li>
+</ul>
+<h2 id="how-to-balance-resources">How to Balance Resources <a class="direct-link" href="#how-to-balance-resources">#</a></h2>
+<p>When managing resources: memory, transactions, threads, flies, timers—all kinds of things with limited availability, we have to close, finish, delete, deallocate them when we are done.</p>
+<p><strong>Finish What You Start</strong></p>
+<h3 id="nest-allocations">Nest Allocations <a class="direct-link" href="#nest-allocations">#</a></h3>
+<ul>
+<li>1.-Deallocate resources in the opposite order to that in which you allocate them</li>
+<li>2.-When allocating the same set of resources in different places in your code, always allocate them in the same order (prevent deadlocks)</li>
+</ul>
+<h3 id="objects-and-exceptions">Objects and Exceptions <a class="direct-link" href="#objects-and-exceptions">#</a></h3>
+<p>Use <code>finally</code> to free resources.</p>
 
 
-
-<ol reversed class="postlist" style="counter-reset: start-from 7">
-
-  <li class="postlist-item">
-    <a href="/posts/pragmatic-philosophy/" class="postlist-link">A Pragmatic Philosophy</a>
-    <time class="postlist-date" datetime="2020-09-05">05 Sep 2020</time>
-    
-      <a href="/tags/notes/" class="tag">notes</a>
-  </li>
-
-  <li class="postlist-item">
-    <a href="/posts/pragmatic-paranoia/" class="postlist-link">A Pragmatic Paranoia</a>
-    <time class="postlist-date" datetime="2020-09-05">05 Sep 2020</time>
-    
-      <a href="/tags/notes/" class="tag">notes</a>
-  </li>
-
-  <li class="postlist-item">
-    <a href="/posts/pragmatic-approach/" class="postlist-link">A Pragmatic Approach</a>
-    <time class="postlist-date" datetime="2020-09-05">05 Sep 2020</time>
-    
-      <a href="/tags/notes/" class="tag">notes</a>
-  </li>
-
-</ol>
-
-
-<p>More posts can be found in <a href="/posts/">the archive</a>.</p>
-
+<p><a href="/">← Home</a></p>
 
     </main>
 
@@ -69,10 +101,10 @@
       Feel free to write to me if you have any questions.
 
       Find a mistake? Please write to me(matvii [at] hodovani [dot] uk) or 
-      <a href="https://github.com/hodovani/hodovani.github.io/blob/master/_source/./index.njk">edit this page on GitHub</a>
+      <a href="https://github.com/hodovani/hodovani.github.io/blob/master/_source/./posts/pragmatic-paranoia.md">edit this page on GitHub</a>
     </footer>
 
-    <!-- Current page: / -->
+    <!-- Current page: /posts/pragmatic-paranoia/ -->
   </body>
   
   <style lazyload>
