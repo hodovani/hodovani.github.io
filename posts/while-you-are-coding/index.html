@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>While you are coding</title>
+    <meta name="Description" content="Care About Your Craft.">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Matvii Hodovaniuk Notes">
+    <link rel="icon" type="image/png" href="./img/favicon.png"/>
+  </head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async rel="preconnect" src="https://www.googletagmanager.com/gtag/js?id=UA-128032414-1"></script>
+  <script async rel="preconnect">
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-128032414-1');
+  </script>
+  <body>
+    <header>
+      <h1 class="home"><a href="/">Matvii Hodovaniuk Notes</a></h1>
+      <ul class="nav">
+        <li class="nav-item"><a href="/">Home</a></li>
+        <li class="nav-item"><a href="/posts/">Archive</a></li>
+        <li class="nav-item"><a href="/about/">About Me</a></li>
+      </ul>
+    </header>
+
+    <main class="tmpl-post">
+      <h1>While you are coding</h1>
+
+<h2 id="program-by-coincidence">Program by Coincidence <a class="direct-link" href="#program-by-coincidence">#</a></h2>
+<p>We should avoid programming by coincidence—relying on luck and accidental successes— in favor of programming deliberately.<br>
+<strong>Don't Program by Coincidence</strong></p>
+<h3 id="how-to-program-deliberately">How to Program Deliberately <a class="direct-link" href="#how-to-program-deliberately">#</a></h3>
+<ul>
+<li>Always be aware of what you are doing.</li>
+<li>Don't code blindfolded.</li>
+<li>Proceed from a plan.</li>
+<li>Rely only on reliable things.</li>
+<li>Document your assumptions. <a href="#21-design-by-contract">Design by Contract</a>.</li>
+<li>Don't just test your code, but test your assumptions as well. Don't guess <a href="#23-assertive-programming">Assertive Programming</a></li>
+<li>Prioritize your effort.</li>
+<li>Don't be a slave to history. Don't let existing code dictate future code. <a href="#33-refactoring">Refactoring</a></li>
+</ul>
+<h2 id="algorithm-speed">Algorithm Speed <a class="direct-link" href="#algorithm-speed">#</a></h2>
+<p>Pragmatic Programmers estimate the resources that algorithms use—time, processor, memory, and so on.</p>
+<h3 id="use%3A-big-o-notation">Use: Big O Notation <a class="direct-link" href="#use%3A-big-o-notation">#</a></h3>
+<ul>
+<li><strong>O(1)</strong>: Constant (access element in array, simple statements)</li>
+</ul>
+<pre class="language-js"><code class="language-js">	bool <span class="token function">IsFirstElementNull</span><span class="token punctuation">(</span><span class="token parameter">IList<span class="token operator">&lt;</span>string<span class="token operator">></span> elements</span><span class="token punctuation">)</span><br>	<span class="token punctuation">{</span><br>    	<span class="token keyword">return</span> elements<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token keyword">null</span><span class="token punctuation">;</span><br>	<span class="token punctuation">}</span></code></pre>
+<ul>
+<li><strong>O(lg(n))</strong>: Logarithmic (binary search) lg(n) = lg2(n)</li>
+</ul>
+<pre class="language-js"><code class="language-js"><br>	Int <span class="token function">BinarySearch</span><span class="token punctuation">(</span><span class="token parameter">list<span class="token punctuation">,</span> target</span><span class="token punctuation">)</span><br>	<span class="token punctuation">{</span><br>	   lo <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">,</span> hi <span class="token operator">=</span> <span class="token function">size</span><span class="token punctuation">(</span>list<span class="token punctuation">)</span><br>	   <span class="token keyword">while</span> <span class="token punctuation">(</span>lo <span class="token operator">&lt;=</span> hi<span class="token punctuation">)</span><span class="token punctuation">{</span><br>	      mid <span class="token operator">=</span> lo <span class="token operator">+</span> <span class="token punctuation">(</span>hi<span class="token operator">-</span>lo<span class="token punctuation">)</span><span class="token operator">/</span><span class="token number">2</span><br>	      <span class="token keyword">if</span> <span class="token punctuation">(</span>list<span class="token punctuation">[</span>mid<span class="token punctuation">]</span> <span class="token operator">==</span> target<span class="token punctuation">)</span> <span class="token keyword">return</span> mid<br>	      <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>list<span class="token punctuation">[</span>mid<span class="token punctuation">]</span> <span class="token operator">&lt;</span> target<span class="token punctuation">)</span> lo <span class="token operator">=</span> mid<span class="token operator">+</span><span class="token number">1</span><br>	      <span class="token keyword">else</span> hi <span class="token operator">=</span> mid<span class="token operator">-</span><span class="token number">1</span><br>	   <span class="token punctuation">}</span><br>	<span class="token punctuation">}</span><br></code></pre>
+<ul>
+<li><strong>O(n)</strong>: Linear: Sequential search</li>
+</ul>
+<pre class="language-js"><code class="language-js"><br>	bool <span class="token function">ContainsValue</span><span class="token punctuation">(</span><span class="token parameter">IList<span class="token operator">&lt;</span>string<span class="token operator">></span> elements<span class="token punctuation">,</span> string value</span><span class="token punctuation">)</span><br>	<span class="token punctuation">{</span><br>	    <span class="token function">foreach</span> <span class="token punctuation">(</span><span class="token parameter"><span class="token keyword">var</span> element <span class="token keyword">in</span> elements</span><span class="token punctuation">)</span><br>	    <span class="token punctuation">{</span><br>	        <span class="token keyword">if</span> <span class="token punctuation">(</span>element <span class="token operator">==</span> value<span class="token punctuation">)</span> <span class="token keyword">return</span> <span class="token boolean">true</span><span class="token punctuation">;</span><br>	    <span class="token punctuation">}</span><br><br>	    <span class="token keyword">return</span> <span class="token boolean">false</span><span class="token punctuation">;</span><br>	<span class="token punctuation">}</span><br></code></pre>
+<ul>
+<li><strong>O(n lg(n))</strong>: Worse than linear but not much worse(average runtime of quickshort, headsort)</li>
+<li><strong>O(n²)</strong>: Square law (selection and insertion sorts)</li>
+</ul>
+<pre class="language-js"><code class="language-js"><br>	bool <span class="token function">ContainsDuplicates</span><span class="token punctuation">(</span><span class="token parameter">IList<span class="token operator">&lt;</span>string<span class="token operator">></span> elements</span><span class="token punctuation">)</span><br>	<span class="token punctuation">{</span><br>	    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">var</span> outer <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> outer <span class="token operator">&lt;</span> elements<span class="token punctuation">.</span>Count<span class="token punctuation">;</span> outer<span class="token operator">++</span><span class="token punctuation">)</span><br>	    <span class="token punctuation">{</span><br>	        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">var</span> inner <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> inner <span class="token operator">&lt;</span> elements<span class="token punctuation">.</span>Count<span class="token punctuation">;</span> inner<span class="token operator">++</span><span class="token punctuation">)</span><br>	        <span class="token punctuation">{</span><br>	            <span class="token comment">// Don't compare with self</span><br>	            <span class="token keyword">if</span> <span class="token punctuation">(</span>outer <span class="token operator">==</span> inner<span class="token punctuation">)</span> <span class="token keyword">continue</span><span class="token punctuation">;</span><br><br>	            <span class="token keyword">if</span> <span class="token punctuation">(</span>elements<span class="token punctuation">[</span>outer<span class="token punctuation">]</span> <span class="token operator">==</span> elements<span class="token punctuation">[</span>inner<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token keyword">return</span> <span class="token boolean">true</span><span class="token punctuation">;</span><br>	        <span class="token punctuation">}</span><br>	    <span class="token punctuation">}</span><br><br>	    <span class="token keyword">return</span> <span class="token boolean">false</span><span class="token punctuation">;</span><br>	<span class="token punctuation">}</span><br></code></pre>
+<ul>
+<li><strong>O(n³)</strong>: Cubic (multiplication of 2 n x n matrices)</li>
+<li><strong>O(Cⁿ)</strong>: Exponential (travelling salesman problem, set partitioning)</li>
+</ul>
+<pre class="language-js"><code class="language-js"><br>	int <span class="token function">Fibonacci</span><span class="token punctuation">(</span><span class="token parameter">int number</span><span class="token punctuation">)</span><br>	<span class="token punctuation">{</span><br>	    <span class="token keyword">if</span> <span class="token punctuation">(</span>number <span class="token operator">&lt;=</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token keyword">return</span> number<span class="token punctuation">;</span><br><br>	    <span class="token keyword">return</span> <span class="token function">Fibonacci</span><span class="token punctuation">(</span>number <span class="token operator">-</span> <span class="token number">2</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token function">Fibonacci</span><span class="token punctuation">(</span>number <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>	<span class="token punctuation">}</span></code></pre>
+<h3 id="common-sense-estimation">Common Sense Estimation <a class="direct-link" href="#common-sense-estimation">#</a></h3>
+<ul>
+<li>Simple loops: O(n)</li>
+<li>Nested loops: O(n²)</li>
+<li>Binary chop: O(lg(n))</li>
+<li>Divide and conquer: O(n lg(n)). Algorithms that partition their input, work on the two halves independently, and then combine the result.</li>
+<li>Combinatoric: O(Cⁿ)</li>
+</ul>
+<p><strong>Estimate the Order of Your Algorithms</strong></p>
+<p><strong>Test Your Estimates</strong></p>
+<h3 id="best-isn't-always-best">Best Isn't Always Best <a class="direct-link" href="#best-isn't-always-best">#</a></h3>
+<p>Be pragmatic about choosing appropriate algorithms—the fastest one is not always the best for the job.</p>
+<p>Be wary of premature optimization. Make sure an algorithm really is a bottleneck before investing time improving it.</p>
+<h2 id="refactoring">Refactoring <a class="direct-link" href="#refactoring">#</a></h2>
+<p>Code needs to evolve; it's not a static thing.</p>
+<h3 id="when-should-you-refactor%3F">When Should You Refactor? <a class="direct-link" href="#when-should-you-refactor%3F">#</a></h3>
+<ul>
+<li>Duplication. You've discovered a violation of the DRY principle (<a href="#7-the-evils-of-duplication">The Evils of Duplication</a>).</li>
+<li>Nonorthogonal design. You've discovered some code or design that could be made more orthogonal (<a href="#8-orthogonality">Orthogonality</a>).</li>
+<li>Outdated knowledge. Things change, requirements drift, and your knowledge of the problem increases. Code needs to keep up.</li>
+<li>Performance. You need to move functionality from one area of the system to another to improve performance.</li>
+</ul>
+<p><strong>Refactor Early, Refactor Often</strong></p>
+<h3 id="how-do-you-refactor%3F">How Do You Refactor? <a class="direct-link" href="#how-do-you-refactor%3F">#</a></h3>
+<ul>
+<li>
+<ol>
+<li>Don't try to refactor and add functionality at the same time.</li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li>Make sure you have good tests before you begin refactoring.</li>
+</ol>
+</li>
+<li>
+<ol start="3">
+<li>Take short, deliberate steps.</li>
+</ol>
+</li>
+</ul>
+<h2 id="code-that's-easy-to-test">Code That's Easy to Test <a class="direct-link" href="#code-that's-easy-to-test">#</a></h2>
+<p>Build testability into the software from the very beginning, and test each piece thoroughly before trying to wire them together.</p>
+<h3 id="unit-testing">Unit Testing <a class="direct-link" href="#unit-testing">#</a></h3>
+<p>Testing done on each module, in isolation, to verify its behavior.<br>
+A software unit test is code that exercises a module.</p>
+<h3 id="testing-against-contract">Testing Against Contract <a class="direct-link" href="#testing-against-contract">#</a></h3>
+<p>This will tell us two things:</p>
+<ol>
+<li>Whether the code meet the contract</li>
+<li>Whether the contract means what we think it means.</li>
+</ol>
+<p><strong>Design to Test</strong></p>
+<p>There's no better way to fix errors than by avoiding them in the first place.<br>
+Build the tests before you implement the code.</p>
+<h3 id="writing-unit-tests">Writing Unit Tests <a class="direct-link" href="#writing-unit-tests">#</a></h3>
+<p>By making the test code readily accessible, you are providing developers who may use your code with two invaluable resources:</p>
+<ol>
+<li>Examples of how to use all the functionality of your module</li>
+<li>A means to build regression tests to validate any future changes to the code</li>
+</ol>
+<p>You must run them, and run them often.</p>
+<h3 id="using-test-harnesses">Using Test Harnesses <a class="direct-link" href="#using-test-harnesses">#</a></h3>
+<p>Test harnesses should include the following capabilities:</p>
+<ul>
+<li>A standard way to specify setup and cleanup</li>
+<li>A method for selecting individual tests or all available tests</li>
+<li>A means of analyzing output for expected (or unexpected) results</li>
+<li>A standardized form of failure reporting</li>
+</ul>
+<h3 id="build-a-test-window">Build a Test Window <a class="direct-link" href="#build-a-test-window">#</a></h3>
+<ul>
+<li>Log files.</li>
+<li>Hot-key sequence.</li>
+<li>Built-in Web server.</li>
+</ul>
+<h3 id="a-culture-of-testing">A Culture of Testing <a class="direct-link" href="#a-culture-of-testing">#</a></h3>
+<p><strong>Test Your Software, or Your Users Will</strong></p>
+<h2 id="evil-wizards">Evil Wizards <a class="direct-link" href="#evil-wizards">#</a></h2>
+<p>If you do use a wizard, and you don't understand all the code that it produces, you won't be in control of your own application.</p>
+<p><strong>Don't Use Wizard Code You Don't Understand</strong></p>
+
+
+<p><a href="/">← Home</a></p>
+
+    </main>
+
+    <footer>
+      Hope this was helpful.
+      Feel free to write to me if you have any questions.
+
+      Find a mistake? Please write to me(matvii [at] hodovani [dot] uk) or 
+      <a href="https://github.com/hodovani/hodovani.github.io/blob/master/_source/./posts/while-you-are-coding.md">edit this page on GitHub</a>
+    </footer>
+
+    <!-- Current page: /posts/while-you-are-coding/ -->
+  </body>
+  
+  <style lazyload>
+    :root{--red:#C5004A;--darkred:#7F0036;--lightgray:#e0e0e0;--gray:#C0C0C0;--darkgray:#333;--navy:#17050F;--blue:#082840;--white:#fff}*{box-sizing:border-box}body,html{padding:0;margin:0;font-family:system-ui,sans-serif;color:var(--darkgray);background-color:var(--white)}p:last-child{margin-bottom:0}.tmpl-post li,img,p{max-width:37.5em}.tmpl-post li,p{line-height:1.45}a[href]{color:var(--blue)}a[href]:visited{color:var(--navy)}footer,main{padding:1rem}main :first-child{margin-top:0}header{border-bottom:1px dashed var(--lightgray)}header:after{content:"";display:table;clear:both}table{margin:1em 0}table td,table th{padding-right:1em}code,pre{font-family:Consolas,Menlo,Monaco,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L","Courier New",Courier,monospace;line-height:1.5}pre{font-size:14px;line-height:1.375;direction:ltr;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;-moz-tab-size:2;-o-tab-size:2;tab-size:2;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none;padding:1em;margin:.5em 0;background-color:#f6f6f6}.highlight-line{display:block;padding:.125em 1em;text-decoration:none;color:inherit}.highlight-line:empty:before{content:" "}.highlight-line+br{display:none}.highlight-line-isdir{color:#b0b0b0;background-color:#222}.highlight-line-active{background-color:#444;background-color:hsla(0,0%,27%,.8)}.highlight-line-add{background-color:#45844b}.highlight-line-remove{background-color:#902f2f}.home{padding:0 1rem;float:left;margin:1rem 0;font-size:1em}.home :link:not(:hover){text-decoration:none}.nav{padding:0;list-style:none;float:left;margin-left:1em}.nav-item{display:inline-block;margin-right:1em}.nav-item a[href]:not(:hover){text-decoration:none}.nav-item-active{font-weight:700;text-decoration:underline}.postlist{list-style:none;padding:0}.postlist-item{counter-increment:start-from -1}.postlist-item:before{display:inline-block;pointer-events:none;content:"" counter(start-from,decimal-leading-zero) ". ";line-height:100%;text-align:right}.postlist-date,.postlist-item:before{font-size:.8125em;color:var(--darkgray)}.postlist-date{word-spacing:-.5px}.postlist-link{display:inline-block;padding:.25em .1875em}.postlist-item-active .postlist-link{font-weight:700}.tmpl-home .postlist-link{font-size:1.1875em;font-weight:700}.tag{display:inline-block;vertical-align:text-top;text-transform:uppercase;font-size:.625em;padding:2px 4px;margin-left:.8em;background-color:var(--red);color:var(--white);border-radius:.25em;text-decoration:none}a[href].tag,a[href].tag:visited{color:#fff}.warning{background-color:#ffc;padding:1em .625em}.warning ol:only-child{margin:0}.direct-link{font-family:sans-serif;text-decoration:none;font-style:normal;margin-left:.1em}a[href].direct-link,a[href].direct-link:visited{color:transparent}:hover>a[href].direct-link,:hover>a[href].direct-link:visited,a[href].direct-link:focus,a[href].direct-link:focus:visited{color:#aaa}
+  </style>
+    
+  <style lazyload>
+    code[class*=language-],pre[class*=language-]{font-size:14px;line-height:1.375;direction:ltr;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;-moz-tab-size:2;-o-tab-size:2;tab-size:2;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none;background:#272822;color:#f8f8f2}pre[class*=language-]{padding:1.5em 0;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#75715e}.token.punctuation{color:#f8f8f2}.token.namespace{opacity:.7}.token.boolean,.token.number,.token.operator{color:#fd971f}.token.property{color:#f4bf75}.token.tag{color:#66d9ef}.token.string{color:#a1efe4}.token.selector{color:#ae81ff}.token.attr-name{color:#fd971f}.language-css .token.string,.style .token.string,.token.entity,.token.url{color:#a1efe4}.token.attr-value,.token.control,.token.directive,.token.keyword,.token.unit{color:#a6e22e}.token.atrule,.token.regex,.token.statement{color:#a1efe4}.token.placeholder,.token.variable{color:#66d9ef}.token.deleted{text-decoration:line-through}.token.inserted{border-bottom:1px dotted #f9f8f5;text-decoration:none}.token.italic{font-style:italic}.token.bold,.token.important{font-weight:700}.token.important{color:#f92672}.token.entity{cursor:help}pre>code.highlight{outline:.4em solid #f92672;outline-offset:.4em}
+  </style>
+</html>
