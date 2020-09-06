@@ -458,6 +458,77 @@ If your code tries to open a file for reading and that file does not exist, shou
 	</entry>
 	
 	<entry>
+		<title>Before the project</title>
+		<link href="http://matvii.hodovani.uk/posts/before-the-project/"/>
+		<updated>2020-09-06T03:00:00+03:00</updated>
+		<id>http://matvii.hodovani.uk/posts/before-the-project/</id>
+		<content type="html">&lt;h2 id=&quot;the-requirements-pit&quot;&gt;The Requirements Pit &lt;a class=&quot;direct-link&quot; href=&quot;#the-requirements-pit&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Perfection is achieved, not when there is nothing left to add, but when there is nothing left to take away….&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Don&#39;t Gather Requirements—Dig for Them&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;digging-for-requirements&quot;&gt;Digging for Requirements &lt;a class=&quot;direct-link&quot; href=&quot;#digging-for-requirements&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Policy may end up as metadata in the application.&lt;/p&gt;
+&lt;p&gt;Gathering requirements in this way naturally leads you to a system that is well factored to support metadata.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Work with a User to Think Like a User&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;documenting-requirements&quot;&gt;Documenting Requirements &lt;a class=&quot;direct-link&quot; href=&quot;#documenting-requirements&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Use &amp;quot;use cases&amp;quot;&lt;/p&gt;
+&lt;h3 id=&quot;overspecifying&quot;&gt;Overspecifying &lt;a class=&quot;direct-link&quot; href=&quot;#overspecifying&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Requirements are not architecture. Requirements are not design, nor are they the user interface. Requirements are need.&lt;/p&gt;
+&lt;h3 id=&quot;seeing-further&quot;&gt;Seeing Further &lt;a class=&quot;direct-link&quot; href=&quot;#seeing-further&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Abstractions Live Longer than Details&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;just-one-more-wafer-thin-mint%E2%80%A6&quot;&gt;Just One More Wafer-Thin Mint… &lt;a class=&quot;direct-link&quot; href=&quot;#just-one-more-wafer-thin-mint%E2%80%A6&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;What can we do to prevent requirements from creeping up on us?&lt;/p&gt;
+&lt;p&gt;The key to managing growth of requirements is to point out each new feature&#39;s impact on the schedule to the project sponsors.&lt;/p&gt;
+&lt;h3 id=&quot;maintain-a-glossary&quot;&gt;Maintain a Glossary &lt;a class=&quot;direct-link&quot; href=&quot;#maintain-a-glossary&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;It&#39;s very hard to succeed on a project where the users and developers refer to the same thing by different names or, even worse, refer to different things by the same name.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Use a Project Glossary&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;get-the-word-out&quot;&gt;Get the Word Out &lt;a class=&quot;direct-link&quot; href=&quot;#get-the-word-out&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Publishing project documents to internal Web sites for easy access by all participants.&lt;/p&gt;
+&lt;h2 id=&quot;solving-impossible-puzzles&quot;&gt;Solving Impossible Puzzles &lt;a class=&quot;direct-link&quot; href=&quot;#solving-impossible-puzzles&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;degrees-of-freedom&quot;&gt;Degrees of Freedom &lt;a class=&quot;direct-link&quot; href=&quot;#degrees-of-freedom&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;The key to solving puzzles is both to recognize the constraints placed on you and to recognize the degrees of freedom you do have, for in those you&#39;ll find your solution.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Don&#39;t Think Outside the Box—Find the Box&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;there-must-be-an-easier-way!&quot;&gt;There Must Be an Easier Way! &lt;a class=&quot;direct-link&quot; href=&quot;#there-must-be-an-easier-way!&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;If you can not find the solution, step back and ask yourself these questions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Is there an easier way?&lt;/li&gt;
+&lt;li&gt;Are you trying to solve the right problem, or have you been distracted by a peripheral technicality?&lt;/li&gt;
+&lt;li&gt;Why is this thing a problem?&lt;/li&gt;
+&lt;li&gt;What is it that&#39;s making it so hard to solve?&lt;/li&gt;
+&lt;li&gt;Does it have to be done this way?&lt;/li&gt;
+&lt;li&gt;Does it have to be done at all?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;not-until-you&#39;re-ready&quot;&gt;Not Until You&#39;re Ready &lt;a class=&quot;direct-link&quot; href=&quot;#not-until-you&#39;re-ready&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;If you sit down to start typing and there&#39;s some nagging doubt in your mind, heed it.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Listen to Nagging Doubts—Start When You&#39;re Ready&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;good-judgment-or-procrastination%3F&quot;&gt;Good Judgment or Procrastination? &lt;a class=&quot;direct-link&quot; href=&quot;#good-judgment-or-procrastination%3F&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Start prototyping. Choose an area that you feel will be difficult and begin producing some kind of proof of concept, and be sure to remember&lt;br&gt;
+why you&#39;re doing it and that it is a prototype.&lt;/p&gt;
+&lt;h2 id=&quot;the-specification-trap&quot;&gt;The Specification Trap &lt;a class=&quot;direct-link&quot; href=&quot;#the-specification-trap&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Writing a specification is quite a responsibility.&lt;/p&gt;
+&lt;p&gt;You should know when to stop:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Specification will never capture every detail of a system or its requirement.&lt;/li&gt;
+&lt;li&gt;The expressive power of language itself might not be enough to describe a specification&lt;/li&gt;
+&lt;li&gt;A design that leaves the coder no room for interpretation robs the programming effort of any skill and art.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Some Things Are Better Done than Described&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;circles-and-arrows&quot;&gt;Circles and Arrows &lt;a class=&quot;direct-link&quot; href=&quot;#circles-and-arrows&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Don&#39;t Be a Slave to Formal Methods&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Formal methods have some serious shortcomings:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Diagrams are meaningless to the end users, show the user a prototype and let them play with it.&lt;/li&gt;
+&lt;li&gt;Formal methods seem to encourage specialization. It may not be possible to have an in-depth grasp of every aspect of a system.&lt;/li&gt;
+&lt;li&gt;We like to write adaptable, dynamic systems, using metadata to allow us to change the character of applications at runtime, but most current formal methods don&#39;t allow it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;do-methods-pay-off%3F&quot;&gt;Do Methods Pay Off? &lt;a class=&quot;direct-link&quot; href=&quot;#do-methods-pay-off%3F&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Never underestimate the cost of adopting new tools and methods.&lt;/p&gt;
+&lt;h3 id=&quot;should-we-use-formal-methods%3F&quot;&gt;Should We Use Formal Methods? &lt;a class=&quot;direct-link&quot; href=&quot;#should-we-use-formal-methods%3F&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Absolutely but remember that is just one more tool in the toolbox.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Expensive Tools Do Not Produce Better Designs&lt;/strong&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
 		<title>The Basic Tools</title>
 		<link href="http://matvii.hodovani.uk/posts/bend-or-break/"/>
 		<updated>2020-09-06T03:00:00+03:00</updated>
