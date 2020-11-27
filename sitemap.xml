@@ -2,46 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://matvii.hodovani.uk/about/</loc>
-    <lastmod>2020-06-16</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://matvii.hodovani.uk/posts/</loc>
-    <lastmod>2020-06-16</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://matvii.hodovani.uk/</loc>
-    <lastmod>2020-06-16</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://matvii.hodovani.uk/page-list/</loc>
-    <lastmod>2020-06-16</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://matvii.hodovani.uk/tags/</loc>
-    <lastmod>2020-06-16</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://matvii.hodovani.uk/tags/notes/</loc>
-    <lastmod>2020-06-16</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://matvii.hodovani.uk/tags/meta-blog-post/</loc>
-    <lastmod>2020-06-16</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://matvii.hodovani.uk/tags/drawing-automation/</loc>
-    <lastmod>2020-06-16</lastmod>
-  </url>
-  
-  <url>
     <loc>http://matvii.hodovani.uk/posts/basic-tools/</loc>
     <lastmod>2020-06-17</lastmod>
   </url>
@@ -89,5 +49,45 @@
   <url>
     <loc>http://matvii.hodovani.uk/posts/while-you-are-coding/</loc>
     <lastmod>2020-09-06</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://matvii.hodovani.uk/about/</loc>
+    <lastmod>2020-11-27</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://matvii.hodovani.uk/posts/</loc>
+    <lastmod>2020-11-27</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://matvii.hodovani.uk/</loc>
+    <lastmod>2020-11-27</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://matvii.hodovani.uk/page-list/</loc>
+    <lastmod>2020-11-27</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://matvii.hodovani.uk/tags/</loc>
+    <lastmod>2020-11-27</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://matvii.hodovani.uk/tags/notes/</loc>
+    <lastmod>2020-11-27</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://matvii.hodovani.uk/tags/meta-blog-post/</loc>
+    <lastmod>2020-11-27</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://matvii.hodovani.uk/tags/drawing-automation/</loc>
+    <lastmod>2020-11-27</lastmod>
   </url>
 </urlset>

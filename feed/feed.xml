@@ -5,7 +5,7 @@
 	
 	<link href="http://matvii.hodovani.uk/feed/feed.xml" rel="self"/>
 	<link href="http://matvii.hodovani.uk/"/>
-	<updated>2020-09-06T03:00:00+03:00</updated>
+	<updated>2020-09-05T21:00:00+03:00</updated>
 	<id>http://matvii.hodovani.uk/</id>
 	<author>
 		<name>Matvii Hodovaniuk</name>
@@ -15,7 +15,7 @@
 	<entry>
 		<title>The Basic Tools</title>
 		<link href="http://matvii.hodovani.uk/posts/basic-tools/"/>
-		<updated>2020-06-17T03:00:00+03:00</updated>
+		<updated>2020-06-16T21:00:00+03:00</updated>
 		<id>http://matvii.hodovani.uk/posts/basic-tools/</id>
 		<content type="html">&lt;p&gt;&lt;strong&gt;Keep Knowledge in plain text&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&quot;14.-the-power-of-plain-text&quot;&gt;14.-The Power of Plain Text &lt;a class=&quot;direct-link&quot; href=&quot;#14.-the-power-of-plain-text&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
@@ -106,7 +106,7 @@ else in your project.&lt;/p&gt;
 	<entry>
 		<title>How to build this blog?</title>
 		<link href="http://matvii.hodovani.uk/posts/firstpost/"/>
-		<updated>2020-06-17T03:00:00+03:00</updated>
+		<updated>2020-06-16T21:00:00+03:00</updated>
 		<id>http://matvii.hodovani.uk/posts/firstpost/</id>
 		<content type="html">&lt;p&gt;I used an &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;11ty&lt;/a&gt; base blog as a start template. You can find it &lt;a href=&quot;https://github.com/11ty/eleventy-base-blog#getting-started&quot;&gt;here&lt;/a&gt;.&lt;br&gt;
 Please, follow the steps in &lt;a href=&quot;http://readme.md/&quot;&gt;README.md&lt;/a&gt; to create a blog.&lt;/p&gt;
@@ -123,7 +123,7 @@ builded blog and a a source code.&lt;/p&gt;
 	<entry>
 		<title>How to automate drawing?</title>
 		<link href="http://matvii.hodovani.uk/posts/how-to-automate-drawing/"/>
-		<updated>2020-06-18T03:00:00+03:00</updated>
+		<updated>2020-06-17T21:00:00+03:00</updated>
 		<id>http://matvii.hodovani.uk/posts/how-to-automate-drawing/</id>
 		<content type="html">&lt;p&gt;I used &lt;a href=&quot;https://www.thingiverse.com/thing:2349232&quot;&gt;this&lt;/a&gt; tutorial to assemble a drawing machine.&lt;br&gt;
 Please follow the instructions inside the repo to make the same.&lt;/p&gt;
@@ -137,7 +137,7 @@ The next step would be to add a servo to support Z axis.&lt;/p&gt;
 	<entry>
 		<title>A Pragmatic Approach</title>
 		<link href="http://matvii.hodovani.uk/posts/pragmatic-approach/"/>
-		<updated>2020-09-05T03:00:00+03:00</updated>
+		<updated>2020-09-04T21:00:00+03:00</updated>
 		<id>http://matvii.hodovani.uk/posts/pragmatic-approach/</id>
 		<content type="html">&lt;h2 id=&quot;the-evils-of-duplication&quot;&gt;The Evils of Duplication &lt;a class=&quot;direct-link&quot; href=&quot;#the-evils-of-duplication&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;The problem arises when you need to change a representation of things that are across all the code base.&lt;br&gt;
@@ -310,7 +310,7 @@ Practice incremental development, repeating the following steps:&lt;/p&gt;
 	<entry>
 		<title>A Pragmatic Paranoia</title>
 		<link href="http://matvii.hodovani.uk/posts/pragmatic-paranoia/"/>
-		<updated>2020-09-05T03:00:00+03:00</updated>
+		<updated>2020-09-04T21:00:00+03:00</updated>
 		<id>http://matvii.hodovani.uk/posts/pragmatic-paranoia/</id>
 		<content type="html">&lt;p&gt;&lt;strong&gt;You can&#39;t write Perfect Software&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;No one in the brief history of computing has ever written a piece of perfect software.&lt;br&gt;
@@ -378,7 +378,7 @@ If your code tries to open a file for reading and that file does not exist, shou
 	<entry>
 		<title>A Pragmatic Philosophy</title>
 		<link href="http://matvii.hodovani.uk/posts/pragmatic-philosophy/"/>
-		<updated>2020-09-05T03:00:00+03:00</updated>
+		<updated>2020-09-04T21:00:00+03:00</updated>
 		<id>http://matvii.hodovani.uk/posts/pragmatic-philosophy/</id>
 		<content type="html">&lt;p&gt;Why spend your life developing software unless you care about doing it well?&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Think! About Your Work&lt;/strong&gt;&lt;/p&gt;
@@ -460,7 +460,7 @@ If your code tries to open a file for reading and that file does not exist, shou
 	<entry>
 		<title>Pragmatic Projects</title>
 		<link href="http://matvii.hodovani.uk/posts/pragmatic-projects/"/>
-		<updated>2020-09-05T03:00:00+03:00</updated>
+		<updated>2020-09-04T21:00:00+03:00</updated>
 		<id>http://matvii.hodovani.uk/posts/pragmatic-projects/</id>
 		<content type="html">&lt;h2 id=&quot;pragmatic-teams&quot;&gt;Pragmatic Teams &lt;a class=&quot;direct-link&quot; href=&quot;#pragmatic-teams&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Pragmatic techniques that help an individual can work for teams.&lt;/p&gt;
@@ -617,7 +617,7 @@ Most testing should be done automatically.&lt;/p&gt;
 	<entry>
 		<title>Before the project</title>
 		<link href="http://matvii.hodovani.uk/posts/before-the-project/"/>
-		<updated>2020-09-06T03:00:00+03:00</updated>
+		<updated>2020-09-05T21:00:00+03:00</updated>
 		<id>http://matvii.hodovani.uk/posts/before-the-project/</id>
 		<content type="html">&lt;h2 id=&quot;the-requirements-pit&quot;&gt;The Requirements Pit &lt;a class=&quot;direct-link&quot; href=&quot;#the-requirements-pit&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Perfection is achieved, not when there is nothing left to add, but when there is nothing left to take away….&lt;/em&gt;&lt;/p&gt;
@@ -688,7 +688,7 @@ why you&#39;re doing it and that it is a prototype.&lt;/p&gt;
 	<entry>
 		<title>The Basic Tools</title>
 		<link href="http://matvii.hodovani.uk/posts/bend-or-break/"/>
-		<updated>2020-09-06T03:00:00+03:00</updated>
+		<updated>2020-09-05T21:00:00+03:00</updated>
 		<id>http://matvii.hodovani.uk/posts/bend-or-break/</id>
 		<content type="html">&lt;h2 id=&quot;decoupling-and-the-law-of-demeter&quot;&gt;Decoupling and the Law of Demeter &lt;a class=&quot;direct-link&quot; href=&quot;#decoupling-and-the-law-of-demeter&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;h3 id=&quot;minimize-coupling&quot;&gt;Minimize Coupling &lt;a class=&quot;direct-link&quot; href=&quot;#minimize-coupling&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
@@ -799,7 +799,7 @@ Reduce any time-based dependencies&lt;/p&gt;
 	<entry>
 		<title>While you are coding</title>
 		<link href="http://matvii.hodovani.uk/posts/while-you-are-coding/"/>
-		<updated>2020-09-06T03:00:00+03:00</updated>
+		<updated>2020-09-05T21:00:00+03:00</updated>
 		<id>http://matvii.hodovani.uk/posts/while-you-are-coding/</id>
 		<content type="html">&lt;h2 id=&quot;program-by-coincidence&quot;&gt;Program by Coincidence &lt;a class=&quot;direct-link&quot; href=&quot;#program-by-coincidence&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;We should avoid programming by coincidence—relying on luck and accidental successes— in favor of programming deliberately.&lt;br&gt;
