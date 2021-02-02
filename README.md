@@ -1,3 +1,3 @@
-# hodovani.github.io
+# Matvii Hodovaniuk Notes
 
-Personal web page
+- [Before the project](./posts/before-the-project.md)
