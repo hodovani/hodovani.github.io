@@ -198,3 +198,5 @@ Test harnesses should include the following capabilities:
 If you do use a wizard, and you don't understand all the code that it produces, you won't be in control of your own application.
 
 **Don't Use Wizard Code You Don't Understand**
+
+_Based on The Pragmatic Programmer Book by Andy Hunt and Dave Thomas_
