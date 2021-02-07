@@ -1,4 +1,3 @@
-
 ## The Requirements Pit
 
 _Perfection is achieved, not when there is nothing left to add, but when there is nothing left to take away…._
@@ -102,3 +101,5 @@ Never underestimate the cost of adopting new tools and methods.
 Absolutely but remember that is just one more tool in the toolbox.
 
 **Expensive Tools Do Not Produce Better Designs**
+
+_Based on The Pragmatic Programmer Book by Andy Hunt and Dave Thomas_
