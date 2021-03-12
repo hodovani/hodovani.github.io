@@ -1,12 +1,3 @@
----
-title: Bend or break
-description: Care About Your Craft.
-date: 2020-09-06
-tags:
-  - notes
-layout: layouts/post.njk
----
-
 ## Decoupling and the Law of Demeter
 
 ### Minimize Coupling
