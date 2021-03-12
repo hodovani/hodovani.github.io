@@ -1,12 +1,3 @@
----
-title: A Pragmatic Approach
-description: Care About Your Craft.
-date: 2020-09-05
-tags:
-  - notes
-layout: layouts/post.njk
----
-
 ## The Evils of Duplication
 
 The problem arises when you need to change a representation of things that are across all the code base.
