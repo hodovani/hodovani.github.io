@@ -1,12 +1,3 @@
----
-title: The Basic Tools
-description: Care About Your Craft.
-date: 2020-06-17
-tags:
-  - notes
-layout: layouts/post.njk
----
-
 **Keep Knowledge in plain text**
 
 ## 14.-The Power of Plain Text
