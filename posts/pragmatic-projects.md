@@ -1,12 +1,3 @@
----
-title: Pragmatic Projects
-description: Care About Your Craft.
-date: 2020-09-05
-tags:
-  - notes
-layout: layouts/post.njk
----
-
 ## Pragmatic Teams
 
 Pragmatic techniques that help an individual can work for teams.
