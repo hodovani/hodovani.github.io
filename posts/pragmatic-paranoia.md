@@ -1,12 +1,3 @@
----
-title: A Pragmatic Paranoia
-description: Care About Your Craft.
-date: 2020-09-05
-tags:
-  - notes
-layout: layouts/post.njk
----
-
 **You can't write Perfect Software**
 
 No one in the brief history of computing has ever written a piece of perfect software.
