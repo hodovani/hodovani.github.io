@@ -6,3 +6,4 @@
 - [While you are coding](./posts/while-you-are-coding.md)
 - [Before the project](./posts/before-the-project.md)
 - [Pragmatic projects](./posts/pragmatic-projects.md)
+- [JavaScript Books](./posts/books.md)
