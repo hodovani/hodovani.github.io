@@ -1,12 +1,3 @@
----
-title: A Pragmatic Philosophy
-description: Care About Your Craft.
-date: 2020-09-05
-tags:
-  - notes
-layout: layouts/post.njk
----
-
 Why spend your life developing software unless you care about doing it well?
 
 **Think! About Your Work**
