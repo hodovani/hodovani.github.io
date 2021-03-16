@@ -1,0 +1,4 @@
+- [ ] Have a test coverage report.
+- [ ] Test app is run without errors.
+- [ ] Test app initial state looks right. 
+- [ ] All pure functions had tests.
