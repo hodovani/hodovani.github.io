@@ -1,0 +1,1 @@
+- https://eslint.org/docs/1.0.0/rules/no-throw-literal
