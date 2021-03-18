@@ -2,3 +2,4 @@
 - https://eslint.org/docs/rules/max-params
 - https://eslint.org/docs/rules/max-lines
 - https://eslint.org/docs/rules/complexity
+- https://github.com/gajus/eslint-plugin-jsdoc
