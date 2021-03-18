@@ -4,3 +4,4 @@
 - https://eslint.org/docs/rules/complexity
 - https://github.com/gajus/eslint-plugin-jsdoc
 - https://eslint.org/docs/rules/strict
+- https://eslint.org/docs/rules/eqeqeq#allow-null
