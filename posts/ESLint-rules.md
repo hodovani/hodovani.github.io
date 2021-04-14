@@ -7,3 +7,4 @@
 - [ ] https://eslint.org/docs/rules/eqeqeq#allow-null
 - [ ] https://eslint.org/docs/rules/no-new-object#disallow-object-constructors-no-new-object
 - [ ] https://github.com/edvardchen/eslint-plugin-i18next
+- [ ] https://eslint.org/docs/rules/prefer-const
