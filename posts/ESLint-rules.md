@@ -1,5 +1,5 @@
 - [ ] https://eslint.org/docs/1.0.0/rules/no-throw-literal
-- [ ] https://eslint.org/docs/rules/max-params
+- [ ] https://eslint.org/docs/rules/max-params. MAX should be 1. Use object literals for more.
 - [ ] https://eslint.org/docs/rules/max-lines
 - [ ] https://eslint.org/docs/rules/complexity
 - [ ] https://github.com/gajus/eslint-plugin-jsdoc
