@@ -9,3 +9,5 @@
 - [ ] https://github.com/edvardchen/eslint-plugin-i18next
 - [ ] https://eslint.org/docs/rules/prefer-const
 - [ ] https://github.com/mysticatea/eslint-plugin/blob/master/docs/rules/prefer-for-of.md
+- [ ] https://www.npmjs.com/package/eslint-plugin-unused-imports
+- [ ] https://eslint.org/docs/rules/sort-imports
