@@ -43,12 +43,8 @@ We would use libarchivejs to look inside archive. Let's try the code from their 
 We need to setup [libarchivejs](https://github.com/nika-begiashvili/libarchivejs) to run in browser.
 
 1. Run libarchivejs in browser
-2. Create wrapper
+2. Create web interface
 
-### HTML
-
-### CSS
-
-### JavaScript
+Video should be like a presentation. Not live codding session.
 
 CTA: Tweet to say thanks
