@@ -1,7 +1,7 @@
 # [DRAFT]
 
 Titles:
-- How to unzip your backpack 🎒 with JavaScript
+Clean Way on How to Unzip Your Archive with JavaScript in Browser
 
 
 Cover image:
