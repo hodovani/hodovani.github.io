@@ -1,11 +1,11 @@
 # [DRAFT]
 
 Titles:
-- How to unzip your pants with JavaScript
+- How to unzip your backpack 🎒 with JavaScript
 
 
 Cover image:
-![pexels-pixabay-206365](https://user-images.githubusercontent.com/12833067/118239041-f5b5d180-b4a1-11eb-991c-7c59aeb48165.jpg)
+[backpack]
 
 
 
