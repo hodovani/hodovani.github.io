@@ -235,6 +235,10 @@ function walk({
 }
 ```
 
-Video should be like a presentation. Not live codding session.
+That is it. Now we can open archive in browser and have a look at file content.
 
-CTA: Tweet to say thanks
+
+
+// Video should be like a presentation. Not live codding session.
+
+// CTA: Tweet to say thanks
