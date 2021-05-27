@@ -11,3 +11,4 @@
 - [ ] https://github.com/mysticatea/eslint-plugin/blob/master/docs/rules/prefer-for-of.md
 - [ ] https://www.npmjs.com/package/eslint-plugin-unused-imports
 - [ ] https://eslint.org/docs/rules/sort-imports
+- [ ] https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-default-export.md
