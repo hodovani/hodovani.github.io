@@ -1,22 +1,14 @@
-# [DRAFT]
-
-Titles:
-Clean Way on How to Unzip Your Archive with JavaScript in Browser
+# Clean Way on How to Unzip Your Archive with JavaScript in Browser
 
 
-Cover image:
-[backpack]
-
+![Clean Way on How to Unzip Your Archive with JavaScript in Browser](https://user-images.githubusercontent.com/12833067/120104544-991f0b80-c15d-11eb-95c1-7649d842b579.png)
 
 
 ### Tl;DR
 
 You want to go to [unzip](https://unzip.mpds.io) and play with it. You can use [this](https://unzip.mpds.io/?archiveUrl=https://mpds.io/calculations/NaCl_225_cF8.7z) example if you don't have a 7zip archive.
 
-here is a short animation that shows you how to use this tool.
-[PUT GIF HERE]
-
-I'll show you how to build this tool.
+I'll show you how to build this tool below.
 
 ### Intro
 
@@ -237,8 +229,4 @@ function walk({
 
 That is it. Now we can open archive in browser and have a look at file content.
 
-
-
-// Video should be like a presentation. Not live codding session.
-
-// CTA: Tweet to say thanks
+How we can improve it? What are your thoughts?
