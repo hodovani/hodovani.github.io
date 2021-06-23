@@ -1,5 +1,1 @@
 - [Mail](matvii@hodovani.uk)
-- [Twitter](https://twitter.com/hodovani)
-- [Facebook](https://www.facebook.com/matvii.hodovaniuk/)
-- [LinkedIn](https://www.linkedin.com/in/matvii-hodovaniuk/)
-- [YouTube](https://www.youtube.com/channel/UCO2QvtrCe-s-GDLLtNa5ntQ)
