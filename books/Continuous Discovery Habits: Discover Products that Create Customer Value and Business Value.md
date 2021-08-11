@@ -26,3 +26,5 @@ Q: How the authour proove that the model works? Author worked for sturtup and th
 "...goal with this book is to share those habits with you in the hopes that you, too, will be inspired to spend more time with your customers."
 
 Is spend more time with your customers summary from the book?
+
+What is continuos discovery?
