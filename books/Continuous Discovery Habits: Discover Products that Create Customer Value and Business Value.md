@@ -21,4 +21,8 @@ A: I want to answer on these questions:
 
 ### Read notes
 
-How the authour proove that the model works? Author worked for sturtup and then quit to do coaching. 
+Q: How the authour proove that the model works? Author worked for sturtup and then quit to do coaching. 
+
+"...goal with this book is to share those habits with you in the hopes that you, too, will be inspired to spend more time with your customers."
+
+Is spend more time with your customers summary from the book?
