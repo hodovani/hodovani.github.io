@@ -21,3 +21,4 @@ A: I want to answer on these questions:
 
 ### Read notes
 
+How the authour proove that the model works? Author worked for sturtup and then quit to do coaching. 
