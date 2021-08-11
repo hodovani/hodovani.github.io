@@ -28,3 +28,11 @@ Q: How the authour proove that the model works? Author worked for sturtup and th
 Is spend more time with your customers summary from the book?
 
 What is continuos discovery?
+
+The work that you do to decide what to build as discovery and the work that you do to build and ship a product as delivery.
+
+Is it good to have daily releases?
+
+Customers should help build a product.
+
+Discovery and delivery phrase should be shorter.
