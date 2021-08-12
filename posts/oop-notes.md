@@ -8,5 +8,5 @@
 
 ## Resources:
 
-https://wiki.c2.com/?PrinciplesOfObjectOrientedDesign
-https://www.baeldung.com/java-single-responsibility-principle
+- https://wiki.c2.com/?PrinciplesOfObjectOrientedDesign
+- https://www.baeldung.com/java-single-responsibility-principle
