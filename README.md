@@ -8,3 +8,6 @@ List of my notes:
 - [Before the project](./posts/before-the-project.md)
 - [Pragmatic projects](./posts/pragmatic-projects.md)
 - [JavaScript Books](./posts/javascript-books.md)
+
+Books notes:
+- [Continuous Discovery Habits: Discover Products that Create Customer Value and Business Value](./books/Continuous-Discovery-Habits:-Discover-Products-that-Create-Customer-Value-and-Business-Value.md)
