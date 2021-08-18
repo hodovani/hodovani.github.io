@@ -19,7 +19,7 @@ A: I want to answer on these questions:
 - In the last chapter Teresa Torres writes that she had the same challenges as every product manager and tells a secret how she overcame those obstacles. After the read, you really believe you can start doing discovery no matter what!
 - The book focuses on the question "what to build", which can be daunting looking at the universe of possible options. Teresa Torres provides practical and concrete methodologies to clarify a problem and structure the opportunity space.
 
-## Read notes
+# Read notes
 
 Q: How the authour proove that the model works? Author worked for sturtup and then quit to do coaching. 
 
@@ -47,4 +47,9 @@ _trio_(can be >= 2 people) is a set of people that make decissions. The more fol
 
 ### The Prerequisite Mindset
 
-1. Outcome oriented
+1. Outcome oriented. Outcome > output. Example: "That means rather than defining your success by the code that you ship (your output), you define success as the value that code creates for your customers and for your business (the outcomes)?
+2. Customer-centric. Focus on creating customer value as well as business value.
+3. Collaborative. Make team decissions while leveraging the expertise and knowledge that we each bring to those deccissions
+4. Visual. Draw to externalize your thinking.
+5. Experimental. Identify assumptions and gather evidence.
+6. Continuous
