@@ -53,3 +53,17 @@ _trio_(can be >= 2 people) is a set of people that make decissions. The more fol
 4. Visual. Draw to externalize your thinking.
 5. Experimental. Identify assumptions and gather evidence.
 6. Continuous
+
+## Chapter two
+
+### A COMMON FRAMEWORK FOR CONTINUOUS DISCOVERY
+
+### Begin With the End in Mind
+
+Outcome > output
+
+### The challange of Driving Outcomes
+
+Customer-centric. Do a research so that we can serve our customers in a way that creates value for our business. There are no right or wrong answers, only better or worse ones. How we frame a probles has a big impact on how we might solve it.
+
+### The Underlying Structure of Discovery
