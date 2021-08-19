@@ -272,7 +272,7 @@ Start keeping a log of your estimates. For each, track how accurate you turned o
 
 **Keep Knowledge in plain text**
 
-## 14.-The Power of Plain Text
+## The Power of Plain Text
 
 ### Drawbacks
 
@@ -285,14 +285,14 @@ Start keeping a log of your estimates. For each, track how accurate you turned o
 - Leverage: Virtually every tool in the computing can operate on plain text.
 - Easier testing
 
-## 15.-Shell Games
+## Shell Games
 
 **Use the power of command Shells**
 
 Can't you do everything equally well by pointing and clicking in a GUI?
 **No**. A benefit of GUIs is _WYSIWYG_—what you see is what you get. The disadvantage is _WYSIAYG_—what you see is all you get.
 
-## 16.-Power Editing
+## Power Editing
 
 **Use a Single Editor Well**
 
@@ -365,11 +365,11 @@ It is possible that a bug exists in the OS, the compiler, or a third-party produ
 - If the suspect code passes its unit tests, are the tests complete enough? What happens if you run the unit test with this data?
 - Do the conditions that caused this bug exist anywhere else in the system?
 
-## 19.-Text Manipulation
+## Text Manipulation
 
 **Learn a Text Manipulation Language**
 
-## 20.-Code Generators
+## Code Generators
 
 **Write Code That Writes Code**
 Two main types of code generators:
@@ -639,7 +639,6 @@ Organizing Your Blackboard by partitioning it when working on large cases.
 
 **Use Blackboards to Coordinate Workflow**
 
-
 ## Program by Coincidence
 
 We should avoid programming by coincidence—relying on luck and accidental successes— in favor of programming deliberately.
@@ -764,8 +763,8 @@ Code needs to evolve; it's not a static thing.
 
 ### When Should You Refactor?
 
-- Duplication. You've discovered a violation of the DRY principle ([The Evils of Duplication](#7-the-evils-of-duplication)).
-- Nonorthogonal design. You've discovered some code or design that could be made more orthogonal ([Orthogonality](#8-orthogonality)).
+- Duplication. You've discovered a violation of the DRY principle.
+- Nonorthogonal design. You've discovered some code or design that could be made more orthogonal.
 - Outdated knowledge. Things change, requirements drift, and your knowledge of the problem increases. Code needs to keep up.
 - Performance. You need to move functionality from one area of the system to another to improve performance.
 
