@@ -16,3 +16,4 @@ Two sets are __equal__ if they conatin exact the same elements.
 
 <img src="https://render.githubusercontent.com/render/math?math=A = {2,3,4,5}">
 <img src="https://render.githubusercontent.com/render/math?math=2 \in A">
+<img src="https://render.githubusercontent.com/render/math?math=7 \notin A">
