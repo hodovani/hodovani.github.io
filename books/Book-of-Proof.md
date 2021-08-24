@@ -35,3 +35,5 @@ __Definition 1.2__ The Cartesian product of two sets A and B is another set, den
 *Fact 1.1* If A and B are finite sets, then |A×B|=|A|·|B|.
 
 __Definition 1.3__ Suppose A and B are sets. If every element of A is also an element of B, then we say A is a subset of B, and we denote this as A ⊆ B. We write A ⊈ B if A is not a subset of B, that is, if it is not true that every element of A is also an element of B. Thus A ⊈ B means that there is at least one element of A that is not an element of B.
+
+*Fact 1.2* The empty set is a subset of all sets, that is, 􏰀 ⊆ B for any set B.
