@@ -45,3 +45,13 @@ __Definition 1.4__ If A is a set, the power set of A is another set, denoted as 
 *Fact 1.4* If A is a finite set, then |P(A)| = 2^(|A|).
 
 The set 𝒫(ℝ^2) is mind boggling. Think of ℝ^2 = {(x,y) : x,y ∈ ℝ} as the set of all points on the Cartesian plane.
+
+__Definition 1.5__ Suppose A and B are sets. 
+
+The __union__ of A and B is the set A∪B = {x : x ∈ A or x ∈ B}.
+
+The __intersection__ of A and B is the set A∩B = {x : x ∈ A and x ∈ B}. 
+
+The __difference__ of A and B is the set A − B = {x : x ∈ A and x ∉ B}.
+
+
