@@ -28,8 +28,10 @@ __Set-builder notation__ is used to describe sets.
 
 <img src="https://latex.codecogs.com/svg.image?E=&space;\left\{&space;2n:n&space;\in&space;\mathbb{Z}&space;\right\}" title="E= \left\{ 2n:n \in \mathbb{Z} \right\}" />
 
-Definition 1.1 An ordered pair is a list (x, y) of two things x and y, enclosed in parentheses and separated by a comma.
+__Definition 1.1__ An ordered pair is a list (x, y) of two things x and y, enclosed in parentheses and separated by a comma.
 
-Definition 1.2 The Cartesian product of two sets A and B is another set, denoted as A×B and defined as A×B={(a,b):a ∈ A,b ∈ B}.
+__Definition 1.2__ The Cartesian product of two sets A and B is another set, denoted as A×B and defined as A×B={(a,b):a ∈ A,b ∈ B}.
 
-Fact 1.1 If A and B are finite sets, then |A×B|=|A|·|B|.
+*Fact 1.1* If A and B are finite sets, then |A×B|=|A|·|B|.
+
+__Definition 1.3__ Suppose A and B are sets. If every element of A is also an element of B, then we say A is a subset of B, and we denote this as A ⊆ B. We write A ⊈ B if A is not a subset of B, that is, if it is not true that every element of A is also an element of B. Thus A ⊈ B means that there is at least one element of A that is not an element of B.
