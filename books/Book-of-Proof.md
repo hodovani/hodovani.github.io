@@ -61,3 +61,6 @@ This is true. To see this, suppose (a,b)∈(R×Z)∩(Z×R). Then (a,b) ∈ R×Z,
 __Problem__ (R×Z)∪(Z×R)=R×R 
 
 This is false. To see this, notice that (π, π) ∈ R × R, but it’s definitely not the case that (π, π) ∈ R × Z, nor that (π, π) ∈ Z × R, so we see that (π, π) ∉ (R × Z) ∪ (Z × R).
+
+__Problem__ Do you think the statement (R−Z)×N=(R×N)−(Z×N) is true, or false? Justify.
+Solution https://math.stackexchange.com/q/3343980/299359
