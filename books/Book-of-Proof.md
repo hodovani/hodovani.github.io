@@ -54,4 +54,10 @@ The __intersection__ of A and B is the set A∩B = {x : x ∈ A and x ∈ B}.
 
 The __difference__ of A and B is the set A − B = {x : x ∈ A and x ∉ B}.
 
+__Problem__ (R×Z)∩(Z×R)=Z×Z 
 
+This is true. To see this, suppose (a,b)∈(R×Z)∩(Z×R). Then (a,b) ∈ R×Z, so b is an integer. Likewise, (a,b) ∈ Z×R, so a is an integer. Therefore, (a,b) ∈ Z×Z. Hence,(R×Z)∩(Z×R)⊆Z×Z. On the other hand, if (a,b) ∈ Z×Z, then a ∈ R, so (a,b) ∈ R×Z; likewise, b ∈ R, so (a,b) ∈ Z×R. Therefore, (a, b) ∈ (R × Z) ∩ (Z × R) and so Z × Z ⊆ (R × Z) ∩ (Z × R). Having proved containment both ways, it follows that (R × Z) ∩ (Z × R) = Z × Z.
+
+__Problem__ (R×Z)∪(Z×R)=R×R 
+
+This is false. To see this, notice that (π, π) ∈ R × R, but it’s definitely not the case that (π, π) ∈ R × Z, nor that (π, π) ∈ Z × R, so we see that (π, π) ∉ (R × Z) ∪ (Z × R).
