@@ -31,3 +31,5 @@ __Set-builder notation__ is used to describe sets.
 Definition 1.1 An ordered pair is a list (x, y) of two things x and y, enclosed in parentheses and separated by a comma.
 
 Definition 1.2 The Cartesian product of two sets A and B is another set, denoted as A×B and defined as A×B={(a,b):a ∈ A,b ∈ B}.
+
+Fact 1.1 If A and B are finite sets, then |A×B|=|A|·|B|.
