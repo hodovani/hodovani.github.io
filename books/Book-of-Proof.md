@@ -41,3 +41,5 @@ __Definition 1.3__ Suppose A and B are sets. If every element of A is also an el
 *Fact 1.3* If a finite set has n elements, then it has 2n subsets.
 
 __Definition 1.4__ If A is a set, the power set of A is another set, denoted as 𝒫(A) and defined to be the set of all subsets of A. In symbols, 𝒫(A) = {X : X ⊆ A}.
+
+*Fact 1.4* If A is a finite set, then |P(A)| = 2^(|A|).
