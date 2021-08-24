@@ -39,3 +39,5 @@ __Definition 1.3__ Suppose A and B are sets. If every element of A is also an el
 *Fact 1.2* The empty set is a subset of all sets, that is,∅ ⊆ B for any set B.
 
 *Fact 1.3* If a finite set has n elements, then it has 2n subsets.
+
+__Definition 1.4__ If A is a set, the power set of A is another set, denoted as 𝒫(A) and defined to be the set of all subsets of A. In symbols, 𝒫(A) = {X : X ⊆ A}.
