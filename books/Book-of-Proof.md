@@ -70,3 +70,5 @@ This is false. To see this, notice that (π, π) ∈ R × R, but it’s definite
 
 __Problem__ Do you think the statement (R−Z)×N=(R×N)−(Z×N) is true, or false? Justify.
 Solution https://math.stackexchange.com/q/3343980/299359
+
+__Definition 1.6__ Let A be a set with a universal set U . The __complement__ of A,denoted A',istheset A'=U−A.
