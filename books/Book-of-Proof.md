@@ -14,6 +14,12 @@ An __infinity set__ has infinity many elements; otherwise it is called a __finit
 
 Two sets are __equal__ if they conatin exact the same elements.
 
+Let A abd B be sets. Let a ∈ A and b ∈ B. If a ∈ B and b ∈ A, then A = B.
+
+__a ∈ A__ means a is a member of the set A
+
+__A ⊆ B__ means A is a subset of B.
+
 <img src="https://render.githubusercontent.com/render/math?math=A = {2,3,4,5}">
 <img src="https://render.githubusercontent.com/render/math?math=2 \in A">
 <img src="https://render.githubusercontent.com/render/math?math=7 \notin A">
