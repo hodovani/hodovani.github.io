@@ -76,3 +76,5 @@ __Definition 1.6__ Let A be a set with a universal set U . The __complement__ of
 __Definition 1.7__ Suppose A1, A2, ..., An are sets. 
 Then A1 ∪ A2 ∪ A3 ∪ ··· ∪ An = { x : x ∈ Ai for at least one set Ai,for 1 ≤ i ≤ n},
 A1 ∩ A2 ∩ A3 ∩ ··· ∩ An = { x : x ∈ Ai for every set Ai, for 1 ≤ i ≤n}.
+
+*Fact 1.5* (Division Algorithm) Given integers a and b with b > 0, there exist unique integers q and r for which a = qb + r and 0 ≤ r < b.
