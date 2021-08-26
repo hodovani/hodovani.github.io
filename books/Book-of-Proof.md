@@ -72,3 +72,7 @@ __Problem__ Do you think the statement (R−Z)×N=(R×N)−(Z×N) is true, or fa
 Solution https://math.stackexchange.com/q/3343980/299359
 
 __Definition 1.6__ Let A be a set with a universal set U . The __complement__ of A,denoted A',is the set A'=U−A.
+
+__Definition 1.7__ Suppose A1, A2, ..., An are sets. 
+Then A1 ∪ A2 ∪ A3 ∪ ··· ∪ An = { x : x ∈ Ai for at least one set Ai,for 1 ≤ i ≤ n},
+A1 ∩ A2 ∩ A3 ∩ ··· ∩ An = { x : x ∈ Ai for every set Ai, for 1 ≤ i ≤n}.
