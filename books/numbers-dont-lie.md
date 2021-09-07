@@ -8,5 +8,5 @@ TODO: Check countries that open the gates for immigration. Do they have fertilit
 
 It seems it correlate with GDP?
 
-> THe best return on investment: Vaccination
+> The best return on investment: Vaccination
 
