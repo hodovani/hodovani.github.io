@@ -11,3 +11,5 @@ It seems it correlate with GDP?
 > The best return on investment: Vaccination
 
 > Why it's difficult to predict how bad a pandemic will be while it is happening?
+
+Didn't read further. I can't check all facts
