@@ -1,4 +1,4 @@
-link: https://overreacted.io/writing-resilient-components/
+https://overreacted.io/writing-resilient-components/
 
 ### Don’t Get Distracted by Imaginary Problems
 
