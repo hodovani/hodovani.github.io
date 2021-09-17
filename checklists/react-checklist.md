@@ -1,0 +1,2 @@
+- https://reactjs.org/docs/error-boundaries.html
+- handle request errors
