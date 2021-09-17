@@ -1,4 +1,5 @@
 List of my notes:
+- [JavaScript Debounce Function](.notes/javascript-debounce-function.md)
 - [Making your UI tests resilient to change](./notes/making-your-ui-tests-resilient-to-change.md)
 - [A Complete Guide to useEffect](.notes/a-complete-guide-to-useeffect.md)
 - [Writing Resilient Components](./notes/writing-resilient-components@overreacted.io.md)
