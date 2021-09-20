@@ -1,4 +1,5 @@
 List of my notes:
+- [The state reducer pattern with React hooks](./notes/the-state-reducer-pattern-with-react-hooks.md)
 - [Compound Components](.notes/compound-components.md)
 - [JavaScript Debounce Function](.notes/javascript-debounce-function.md)
 - [Making your UI tests resilient to change](./notes/making-your-ui-tests-resilient-to-change.md)
