@@ -1,4 +1,5 @@
 List of my notes:
+- [useMemo and useCallback](./notes/usememo-and-usecallback.md)
 - [The state reducer pattern with React hooks](./notes/the-state-reducer-pattern-with-react-hooks.md)
 - [Compound Components](.notes/compound-components.md)
 - [JavaScript Debounce Function](.notes/javascript-debounce-function.md)
