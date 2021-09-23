@@ -9,3 +9,5 @@ Should we test code perfomance? How? Add actions metrics to the test
 Stress testing? Extreme cases?
 
 Think how you would test the code before write it
+
+Tests should run in parallel. Why? It should speedup build. It enshure that tests are independent.
