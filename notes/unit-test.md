@@ -1,5 +1,8 @@
 - https://matvii.hodovani.uk/books/The-Pragmatic-Programmer.html
 - https://livebook.manning.com/book/the-art-of-unit-testing-second-edition/chapter-1/57
+- https://dou.ua/forums/topic/33909/
+- https://dou.ua/forums/topic/34269/
+- https://dou.ua/forums/topic/34553/
 
 A __unit__ test is a piece of a code (usually a method) that invokes another piece of code and checks the correctness of some assumptions afterward. If the assumptions turn out to be wrong, the unit test has failed. A unit is a method or function.
 
