@@ -1,5 +1,8 @@
 https://matvii.hodovani.uk/books/The-Pragmatic-Programmer.html
 
+A __unit__ test is a piece of a code (usually a method) that invokes another piece of code and checks the correctness of some assumptions afterward. If the assumptions turn out to be wrong, the unit test has failed. A unit is a method or function.
+
+
 Tests show how to use your code. It can help to understand the code without documentation.
 
 Add test execution to build pipeline
