@@ -1,4 +1,5 @@
 https://matvii.hodovani.uk/books/The-Pragmatic-Programmer.html
+https://livebook.manning.com/book/the-art-of-unit-testing-second-edition/chapter-1/57
 
 A __unit__ test is a piece of a code (usually a method) that invokes another piece of code and checks the correctness of some assumptions afterward. If the assumptions turn out to be wrong, the unit test has failed. A unit is a method or function.
 
@@ -17,8 +18,17 @@ Tests should run in parallel. Why? It should speedup build. It enshure that test
 
 positive and negative tests
 
-Parameterized Test to avoid code duplication
+### Parameterized Test to avoid code duplication
 
-timebox tests
+Pros
+
+- DRY
+- Easy to add new test
+
+Cons
+
+- Hard to debug
+
+Compare Parralel and Single Thread test running
 
 ![image](https://user-images.githubusercontent.com/12833067/134638135-2920701a-beba-4a39-a727-668fd40328ea.png)
