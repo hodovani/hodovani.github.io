@@ -1,3 +1,5 @@
 - Can we break this story into smaller one?
 - Do we have some of this functionality in code base?
-- Do we have colours or other shared things in feature bracnhes? It should be in dev
+- Do we have colours or other shared things in feature bracnhes? It should be in dev.
+- Do we have a BE for this story?
+- Do we know how to store it in DB?
