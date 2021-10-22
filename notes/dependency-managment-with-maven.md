@@ -135,3 +135,7 @@ Then:
 - For the provided scope, both runtime and compile scope dependencies will be pulled in with the provided scope, in the project
 - For the test scope, both runtime and compile scope transitive dependencies will be pulled in with the test scope, in the project
 - For the runtime scope, both runtime and compile scope transitive dependencies will be pulled in with the runtime scope, in the project
+    
+#### Summary
+    
+I focused on Maven dependency scopes, their purpose, and the details of how they operate.
