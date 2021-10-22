@@ -109,7 +109,7 @@ The important thing to remember is that building the project with system scope d
   
 #### Import Dependency Scope
   
-This scope was added in Maven 2.0.9 and it's only available for the dependency type pom. We're going to speak more about the type of the dependency in future articles.
+This scope was added in Maven 2.0.9 and it's only available for the dependency type pom.
 
 Import indicates that this dependency should be replaced with all effective dependencies declared in it's POM:
 
