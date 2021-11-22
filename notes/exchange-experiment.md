@@ -1,6 +1,5 @@
 title: How to do currency exchanging easy to NOT get more money?
 -----
-image: 
 
 ![pexels-cottonbro-3943748](https://user-images.githubusercontent.com/12833067/142818084-e65b2687-cb7b-430a-aa70-f2554a2c93f5.jpg)
 
