@@ -20,9 +20,15 @@ I am comfortable to work with JavaScript. TensorFlow has lot of examples, tutori
 
 https://glitch.com/edit/#!/glory-granite-dog?path=script.js%3A219%3A17
 
+### Optimise model
+
+https://www.tensorflow.org/js/tutorials/deployment/size_optimized_bundles
+
 references:
 - https://github.com/tensorflow/tfjs-examples/tree/master/cart-pole
 - https://www.tensorflow.org/tutorials/reinforcement_learning/actor_critic
 - http://incompleteideas.net/book/bookdraft2018mar21.pdf
 - https://storage.googleapis.com/tfjs-examples/cart-pole/dist/index.html
 - https://github.com/tensorflow/tfjs-examples/tree/master/snake-dqn
+- https://pythonprogramming.net/pong-ai-tensorflowjs-tutorial/
+- https://www.youtube.com/watch?v=c6y21FkaUqw
