@@ -16,6 +16,10 @@ I am comfortable to work with JavaScript. TensorFlow has lot of examples, tutori
 
 ### Why Cart-Pole Simulation?
 
+### Demo: Break through
+
+https://glitch.com/edit/#!/glory-granite-dog?path=script.js%3A219%3A17
+
 references:
 - https://github.com/tensorflow/tfjs-examples/tree/master/cart-pole
 - https://www.tensorflow.org/tutorials/reinforcement_learning/actor_critic
