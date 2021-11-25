@@ -1,5 +1,7 @@
 TensorFlow.js Example: Reinforcement Learning with Cart-Pole Simulation
 
+---
+
 ### Why create this tutorial?
 
 I wanted to have fun and intresting project to work on weekends, learn more about Reinforcement Learning, create a bot that would play .io games for me.
@@ -19,3 +21,4 @@ references:
 - https://www.tensorflow.org/tutorials/reinforcement_learning/actor_critic
 - http://incompleteideas.net/book/bookdraft2018mar21.pdf
 - https://storage.googleapis.com/tfjs-examples/cart-pole/dist/index.html
+- https://github.com/tensorflow/tfjs-examples/tree/master/snake-dqn
