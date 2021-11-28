@@ -36,3 +36,4 @@ references:
 - https://www.youtube.com/watch?v=c6y21FkaUqw
 - https://deepmind.com/learning-resources/-introduction-reinforcement-learning-david-silver
 - https://github.com/cpnota/rl-js/tree/master/packages/environments/classic-control/core/cart-pole
+- Check examples of this lib https://github.com/karpathy/reinforcejs
