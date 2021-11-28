@@ -16,6 +16,8 @@ I am comfortable to work with JavaScript. TensorFlow has lot of examples, tutori
 
 ### Why Cart-Pole Simulation?
 
+This can be ["Hello World!"](https://ai.stackexchange.com/a/23563/32201) problem of RL.
+
 ### Demo: Break through
 
 https://glitch.com/edit/#!/glory-granite-dog?path=script.js%3A219%3A17
