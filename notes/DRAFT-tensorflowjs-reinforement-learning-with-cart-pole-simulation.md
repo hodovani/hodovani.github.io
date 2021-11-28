@@ -34,3 +34,4 @@ references:
 - https://github.com/tensorflow/tfjs-examples/tree/master/snake-dqn
 - https://pythonprogramming.net/pong-ai-tensorflowjs-tutorial/
 - https://www.youtube.com/watch?v=c6y21FkaUqw
+- https://deepmind.com/learning-resources/-introduction-reinforcement-learning-david-silver
