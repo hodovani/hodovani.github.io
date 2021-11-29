@@ -41,3 +41,4 @@ references:
 - check this video https://www.youtube.com/watch?v=o98qlvrcqiU
 - an examle witn karpathy RL library and cartpole env https://glitch.com/edit/#!/root-honored-ambert?path=script.js%3A2276%3A30
 - try Neuroevolution https://www.youtube.com/watch?v=U9wiMM3BqLU
+- Q Learning https://youtu.be/yMk_XtIEzH8?t=424 is it about tables of all possible rewards for state transitions. Sounds like a finite state machine with value for transition.
