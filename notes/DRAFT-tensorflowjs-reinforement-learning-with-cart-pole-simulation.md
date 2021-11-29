@@ -40,3 +40,4 @@ references:
 - At the bottom of the page is a good example https://cs.stanford.edu/people/karpathy/convnetjs/docs.html
 - check this video https://www.youtube.com/watch?v=o98qlvrcqiU
 - an examle witn karpathy RL library and cartpole env https://glitch.com/edit/#!/root-honored-ambert?path=script.js%3A2276%3A30
+- try Neuroevolution https://www.youtube.com/watch?v=U9wiMM3BqLU
