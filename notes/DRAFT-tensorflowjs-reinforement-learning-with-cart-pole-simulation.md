@@ -44,3 +44,5 @@ references:
 - Q Learning https://youtu.be/yMk_XtIEzH8?t=424 is it about tables of all possible rewards for state transitions. Sounds like a finite state machine with value for transition.
 - https://www.youtube.com/watch?v=6CJsoGgqH_Y
 - https://www.youtube.com/watch?v=cQfOQcpYRzE
+- https://en.wikipedia.org/wiki/Q-learning#cite_note-auto-1
+- http://users.cecs.anu.edu.au/~rsl/rsl_papers/99ai.kambara.pdf
