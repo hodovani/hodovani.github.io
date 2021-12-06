@@ -46,3 +46,4 @@ references:
 - https://www.youtube.com/watch?v=cQfOQcpYRzE
 - https://en.wikipedia.org/wiki/Q-learning#cite_note-auto-1
 - http://users.cecs.anu.edu.au/~rsl/rsl_papers/99ai.kambara.pdf
+- https://github.com/LyWangPX/Reinforcement-Learning-2nd-Edition-by-Sutton-Exercise-Solutions
