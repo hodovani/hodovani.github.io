@@ -12,7 +12,9 @@ I am comfortable to work with JavaScript.
 
 ### What is Reinforcement Learning?
 
-Is it different from superrvised learning? What examples? Elements of Reinforcement Learning. Limitations and Scope
+Short notes from the book https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf
+
+Is it different from superrvised learning? What examples? Elements of Reinforcement Learning. Limitations and Scope.
 
 ### What is mountain car Simulation?
 
