@@ -1,4 +1,4 @@
-TensorFlow.js Example: Reinforcement Learning with Cart-Pole Simulation
+Node.js Example: Reinforcement Learning with MountainCar Simulation
 
 ---
 
@@ -6,27 +6,24 @@ TensorFlow.js Example: Reinforcement Learning with Cart-Pole Simulation
 
 I wanted to have fun and intresting project to work on weekends, learn more about Reinforcement Learning, create a bot that would play .io games for me.
 
-### Why TensorFlow.js?
+### Why Node.js?
 
-I am comfortable to work with JavaScript. TensorFlow has lot of examples, tutorials, ready to use models.
+I am comfortable to work with JavaScript. 
 
 ### What is Reinforcement Learning?
 
-### What is Cart-Pole Simulation?
+Is it different from superrvised learning? What examples? Elements of Reinforcement Learning. Limitations and Scope
 
-### Why Cart-Pole Simulation?
+### What is mountain car Simulation?
+
+### Why mountain car Simulation?
 
 This can be ["Hello World!"](https://ai.stackexchange.com/a/23563/32201) problem of RL.
 
-### Demo: Break through
+### Code example and explanation.
 
-https://glitch.com/edit/#!/glory-granite-dog?path=script.js%3A219%3A17
+### References 
 
-### Optimise model
-
-https://www.tensorflow.org/js/tutorials/deployment/size_optimized_bundles
-
-references:
 - https://github.com/tensorflow/tfjs-examples/tree/master/cart-pole
 - https://www.tensorflow.org/tutorials/reinforcement_learning/actor_critic
 - http://incompleteideas.net/book/bookdraft2018mar21.pdf
