@@ -1,4 +1,5 @@
 List of my notes:
+- [You and Your Research](./notes/you-and-your-research.md)
 - [How to easily do currency exchange to NOT get more money?](./notes/exchange-experiment.md)
 - [Inversion of Control](./notes/inversion-of-control.md)
 - [useMemo and useCallback](./notes/usememo-and-usecallback.md)
