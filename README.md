@@ -1,4 +1,5 @@
 List of my notes:
+- [Writing Resilient Components @ overreacted.io](./notes/writing-resilient-components@overreacted.io.md)
 - [You and Your Research](./notes/you-and-your-research.md)
 - [How to easily do currency exchange to NOT get more money?](./notes/exchange-experiment.md)
 - [Inversion of Control](./notes/inversion-of-control.md)
