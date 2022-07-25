@@ -1,4 +1,5 @@
 List of my notes:
+- [What Business Can Learn From Open Source](./notes/what-business-can-learn-from-open-source.md)
 - [Why Smart People Have Bad Ideas](./notes/why-smart-people-have-bad-ideas.md)
 - [Writing Resilient Components @ overreacted.io](./notes/writing-resilient-components@overreacted.io.md)
 - [You and Your Research](./notes/you-and-your-research.md)
