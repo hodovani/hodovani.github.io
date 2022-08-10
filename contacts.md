@@ -1,1 +1,1 @@
-- [Mail](matvii@hodovani.uk)
+- Mail: matvii at hodovani dot uk
