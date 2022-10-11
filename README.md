@@ -1,3 +1,6 @@
+Tools:
+- [Price per gram](https://matvii.hodovani.uk/price-per-gram/)
+
 List of my notes:
 - [Unit Tests](./notes/unit-test.md)
 - [What Business Can Learn From Open Source](./notes/what-business-can-learn-from-open-source.md)
