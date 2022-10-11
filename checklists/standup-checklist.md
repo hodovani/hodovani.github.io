@@ -1,5 +1,5 @@
-What did I do achieve yesterday?
-What I’m planning to do today?
-What I’m planning to work on next? 
-Are we on track for achieving our sprint goal?
-I’m blocked and I need help with...
+- What did I do achieve yesterday?
+- What I’m planning to do today?
+- What I’m planning to work on next? 
+- Are we on track for achieving our sprint goal?
+- I’m blocked and I need help with...
