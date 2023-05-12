@@ -7,3 +7,7 @@ $$ a^{n} \times a^{m} = a^{n+m} = \underbrace {a\times a\times \dots \times a\ti
 $${\displaystyle a^{n}=\underbrace {a\times a\times \dots \times a\times a} _{n{\text{ times}}}}$$
 
 $${\displaystyle a\times b=\underbrace {a + a + \dots + a + a} _{b{\text{ times}}}}$$
+
+```math
+\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+```
