@@ -1,3 +1,17 @@
+# Combinations
+
+## Number of r-Permutations of n Objects:
+
+Without repetitions:
+$$ P^{n}_{n} = n!$$
+
+
+With repetiotions:
+$$ P_{r}^{n} = n^{r} $$
+
+
+# Logarithm
+
 $$ log_b{N} = \frac{log_a{N}}{log_a{b}} $$
 
 $$ log_a{(A^{p})} = p \times log_a{A} $$
