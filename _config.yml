@@ -1,4 +1,48 @@
-theme: jekyll-theme-cayman
-title: Matvii Hodovaniuk Notes
-description: A collection of personal notes
-show_downloads: false
+# Welcome to Jekyll!
+# This config file is for settings that affect your entire site.
+# If you find yourself editing this file often, consider using data files.
+
+# Site settings
+title: "Matvii Hodovaniuk's Notes"
+tagline: "Collection of personal notes"
+author: "Matvii Hodovaniuk"
+description: "A collection of personal notes"
+baseurl: ""
+url: ""
+
+google_analytics: "G-SL6D3HJS5L"
+
+# Webmaster verification (optional)
+webmaster_verifications:
+  # google: 1234
+
+# Build settings
+theme: "minima"
+plugins:
+  - jekyll-feed
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+  - jekyll-sitemap
+  - jekyll-gist
+
+# jekyll-titles-from-headings settings
+titles_from_headings:
+  enabled: true
+  strip_title: false
+  collections: false
+
+# Minima theme settings
+minima:
+  social_links:
+    - title: Matvii Hodovaniuk at GitHub
+      icon: github
+      url: "https://github.com/hodovani"
+    - title: Matvii Hodovaniuk at X (formerly Twitter)
+      icon: x-twitter
+      url: "https://x.com/0matvii"
+    - title: Matvii Hodovaniuk at LinkedIn
+      icon: linkedin
+      url: "https://www.linkedin.com/in/matvii-hodovaniuk/"
+    - title: Matvii Hodovaniuk at Facebook
+      icon: facebook
+      url: "https://www.facebook.com/profile.php?id=61571849573003"

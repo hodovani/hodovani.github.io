@@ -1,1 +1,0 @@
-- Mail: matviihodovaniuk at gmail dot com

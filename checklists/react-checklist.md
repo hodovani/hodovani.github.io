@@ -1,8 +1,0 @@
-- https://reactjs.org/docs/error-boundaries.html
-- handle request errors
-- Check whether it’s a state managment problem or try to solve it with memoization
-- React.memo => components(props)
-- useCallback => functions
-- useMemo => values
-- Replace onClick={()=>someFun()} with someFun wrapped in useCallback
-- React.memo with custom compare function instead os shallowly compare
