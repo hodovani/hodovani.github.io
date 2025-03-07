@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Book Review: ‘Don’t Make Me Think’ — Key Takeaways For Devs | Matvii Hodovaniuk’s Notes</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Book Review: ‘Don’t Make Me Think’ — Key Takeaways For Devs" />
+<meta name="author" content="Matvii Hodovaniuk" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A review of ‘Don’t Make Me Think’ highlighting key takeaways for UX and frontend developers, and the importance of user-friendly design." />
+<meta property="og:description" content="A review of ‘Don’t Make Me Think’ highlighting key takeaways for UX and frontend developers, and the importance of user-friendly design." />
+<link rel="canonical" href="http://localhost:4000/2025/03/06/book-review-dont-make-me-think.html" />
+<meta property="og:url" content="http://localhost:4000/2025/03/06/book-review-dont-make-me-think.html" />
+<meta property="og:site_name" content="Matvii Hodovaniuk’s Notes" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-03-06T00:00:00+01:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Book Review: ‘Don’t Make Me Think’ — Key Takeaways For Devs" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Matvii Hodovaniuk"},"dateModified":"2025-03-06T00:00:00+01:00","datePublished":"2025-03-06T00:00:00+01:00","description":"A review of ‘Don’t Make Me Think’ highlighting key takeaways for UX and frontend developers, and the importance of user-friendly design.","headline":"Book Review: ‘Don’t Make Me Think’ — Key Takeaways For Devs","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2025/03/06/book-review-dont-make-me-think.html"},"url":"http://localhost:4000/2025/03/06/book-review-dont-make-me-think.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
+  <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Matvii Hodovaniuk&apos;s Notes" />
+<script>
+  const favicons = ["🛠️", "📦", "💡", "🔄", "📈", "🎯", "🧠", "🤖", "🧑‍💻", "🔍", "🧑‍🏫", "📚", "🚀", "💪", "🏆", "🥇", "🎉", "💻", "👩‍💻", "👨‍💻", "⚙️", "🔧", "⌨️", "🌐", "✨", "🎨", "😄", "🌟", "🍃"];
+
+  function setFavicon(emoji) {
+    const canvas = document.createElement("canvas");
+    const size = 64;
+    canvas.width = size;
+    canvas.height = size;
+    const ctx = canvas.getContext("2d");
+
+    ctx.font = "56px sans-serif";
+    ctx.textAlign = "center";
+    ctx.textBaseline = "middle";
+    ctx.fillText(emoji, size / 2, size / 2);
+
+    const favicon = document.createElement("link");
+    favicon.rel = "icon";
+    favicon.href = canvas.toDataURL();
+
+    const oldFavicon = document.querySelector("link[rel='icon']");
+    if (oldFavicon) {
+      oldFavicon.remove();
+    }
+
+    document.head.appendChild(favicon);
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const randomEmoji = favicons[Math.floor(Math.random() * favicons.length)];
+    setFavicon(randomEmoji);
+  });
+</script></head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Matvii Hodovaniuk&#39;s Notes</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About Me</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Book Review: ‘Don’t Make Me Think’ — Key Takeaways For Devs</h1>
+    
+    <!-- Display Reading Time if present --><p class="reading-time">⏳ Estimated Reading Time: 8 minutes</p><p class="post-meta"><time class="dt-published" datetime="2025-03-06T00:00:00+01:00" itemprop="datePublished">
+        Mar 6, 2025
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Sometimes, I land on a website and feel lost within 3 seconds. Other times, I click a button and wonder if it’s broken. Recently, I hit <strong>Cmd+Z</strong> to undo an input, and the site threw me back to the previous form step — erasing 20 minutes of work. 🤯</p>
+
+<p>That’s <strong>bad usability</strong>.<br />
+It made me search for the usability book every developer, designer, and product manager should read - and I found it:<br />
+<strong>“Don’t Make Me Think” by Steve Krug.</strong></p>
+
+<hr />
+
+<h2 id="-why-i-picked-it-up">🔍 Why I Picked It Up</h2>
+
+<p>After reading <em>Start with Why</em> by Simon Sinek, I built a habit of asking <em>why</em> — including why a book written over 20 years ago is still a top recommendation today.</p>
+
+<p>Before starting, I scanned <strong>Goodreads</strong> reviews:</p>
+<ul>
+  <li>Some called it outdated.</li>
+  <li>Others said it was too basic. 🤔</li>
+</ul>
+
+<p>So, I read it with 3 key questions in mind:</p>
+<ul>
+  <li>Which advice still holds up? ✅</li>
+  <li>What (if anything) feels outdated? 🕰️</li>
+  <li>Is it useful for developers, or just for designers? 🧑‍💻🧑‍🎨</li>
+</ul>
+
+<hr />
+
+<h2 id="-3-myths-about-this-book--busted-">🕵 3 Myths About This Book — Busted 💥</h2>
+
+<h3 id="️-myth-1-its-outdated">⌛️ Myth 1: It’s Outdated</h3>
+<p>✅ <strong>Reality:</strong> Only the technology examples feel old.<br />
+The core principles are timeless — exactly what Steve Krug predicted:</p>
+
+<blockquote>
+  <p>“Since it was about design principles and not technology, I didn’t think it was likely to be out of date anytime soon.”</p>
+</blockquote>
+
+<p>Even today, the advice holds up.<br />
+The ideas also apply <strong>beyond design</strong>, like in habit formation: <em>“Atomic Habits” teaches: make it attractive and reduce friction. That’s usability in real life.</em> 👍</p>
+
+<hr />
+
+<h3 id="-myth-2-its-too-basic-for-ux-pros">🧑‍💻 Myth 2: It’s Too Basic for UX Pros</h3>
+<p>✅ <strong>Reality:</strong> It’s simple on purpose — a usability guide for busy people.</p>
+
+<p>The simplicity makes it accessible even for non-designers.<br />
+Humor, illustrations, and conversational tone make it one of the <strong>most enjoyable</strong> design books I’ve read. 👍</p>
+
+<hr />
+
+<h3 id="-myth-3-its-all-common-sense">🙃 Myth 3: It’s All Common Sense</h3>
+<p>✅ <strong>Reality:</strong> If it’s so obvious, why do so many websites still get usability wrong?</p>
+
+<p>It’s <strong>timeless advice</strong> — even 20+ years later, modern websites still break Krug’s basic rules. 👍</p>
+
+<hr />
+
+<h2 id="-what-changed-since-the-last-edition">🔄 What Changed Since the Last Edition?</h2>
+
+<p>Here’s what evolved in the usability world since the book’s release:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Then</th>
+      <th>Now</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Simple usability testing</td>
+      <td>A/B testing, heatmaps, remote testing</td>
+    </tr>
+    <tr>
+      <td>Basic layouts</td>
+      <td>Grid systems, micro-interactions, motion design</td>
+    </tr>
+    <tr>
+      <td>Functional design</td>
+      <td>Emotional design (branding, storytelling, gamification)</td>
+    </tr>
+    <tr>
+      <td>Accessibility optional</td>
+      <td>Accessibility mandatory (WCAG, inclusive design)</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="-5-practical-lessons-you-can-use-today">📚 5 Practical Lessons You Can Use Today</h2>
+
+<h3 id="-lesson-0-dont-make-me-think">🤔 Lesson 0: Don’t Make Me Think</h3>
+<p>If you only remember one rule — <strong>this is it.</strong></p>
+
+<hr />
+
+<h3 id="-lesson-1-users-dont-read--they-scan">🔎 Lesson 1: Users Don’t Read — They Scan</h3>
+<p>Developers often assume users read every word. They don’t.</p>
+
+<p>Users hunt for <strong>what they need</strong>, scanning like this:</p>
+
+<ul>
+  <li>Google search results: You jump between <strong>bold text</strong> and <strong>headings</strong>, not full sentences.</li>
+</ul>
+
+<p>✅ <strong>Make content scannable:</strong></p>
+<ul>
+  <li>Short paragraphs</li>
+  <li>Clear headings</li>
+  <li>Bold keywords</li>
+  <li>Obvious buttons (no clever labels)</li>
+</ul>
+
+<hr />
+
+<h3 id="-lesson-2-what-makes-something-usable">😌 Lesson 2: What Makes Something Usable?</h3>
+<p>Krug’s usability checklist still works today:</p>
+
+<p>✅ <strong>Usability = Useful + Learnable + Memorable + Effective + Efficient + Desirable + Delightful</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Attribute</th>
+      <th>Question to Ask</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Useful</td>
+      <td>Does it solve a real need?</td>
+    </tr>
+    <tr>
+      <td>Learnable</td>
+      <td>Can users figure it out quickly?</td>
+    </tr>
+    <tr>
+      <td>Memorable</td>
+      <td>Will they remember how to use it?</td>
+    </tr>
+    <tr>
+      <td>Effective</td>
+      <td>Does it get the job done?</td>
+    </tr>
+    <tr>
+      <td>Efficient</td>
+      <td>Does it minimise effort?</td>
+    </tr>
+    <tr>
+      <td>Desirable</td>
+      <td>Do users actually want it?</td>
+    </tr>
+    <tr>
+      <td>Delightful</td>
+      <td>Is it enjoyable to use?</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h3 id="-lesson-3-users-satisfice-not-optimise">🎯 Lesson 3: Users Satisfice, Not Optimise</h3>
+<p>Users don’t search for <strong>the best</strong> option — they pick the <strong>first reasonable</strong> one.</p>
+
+<p>✅ <strong>Design for satisficing:</strong></p>
+<ul>
+  <li>Clear defaults</li>
+  <li>Fewer choices</li>
+  <li>Obvious next steps</li>
+</ul>
+
+<h3 id="-lesson-4-every-click-should-have-a-clear-outcome">👆 Lesson 4: Every Click Should Have a Clear Outcome</h3>
+
+<p>Users hate surprises — they want to know exactly what happens when they click.</p>
+
+<p>✅ <strong>Make actions predictable:</strong></p>
+<ul>
+  <li>Label buttons based on what happens next (e.g., “Next Step: Choose Your Plan” instead of just “Next”)</li>
+  <li>Avoid mystery meat navigation (unclear icons or vague links)</li>
+  <li>Use visual feedback after clicks (loading indicators, confirmation messages)</li>
+</ul>
+
+<p>The less users wonder, the faster they move forward — and the happier they are.</p>
+
+<hr />
+
+<h2 id="-my-favourite-part-positive-examples">✨ My Favourite Part: Positive Examples</h2>
+
+<p>What stood out was the focus on <strong>what to do right</strong>, instead of just pointing out bad designs.<br />
+This makes the book <strong>inspiring</strong> instead of <strong>shaming</strong>.</p>
+
+<hr />
+
+<h2 id="-real-life-example-from-my-previous-job">💼 Real-Life Example from My Previous Job</h2>
+
+<p><strong>🚧 Problem:</strong><br />
+At my previous job, we had an internal pipeline management tool used by fewer than 500 employees. Onboarding new users was challenging because we had to constantly update the documentation with each new feature, causing confusion and inefficiencies.</p>
+
+<p><strong>🔧 Solution:</strong><br />
+We were given the green light to rethink the process, and without realising it at the time, we instinctively applied the “Don’t make me think” principle — we simplified the interface. We removed redundant steps, displayed only relevant options based on the user’s department, and included all necessary information directly within the form, so users didn’t have to visit additional pages.</p>
+
+<p><strong>📈 Benefit:</strong><br />
+The average time users spent on a form dropped from <strong>4 minutes to 1 minute</strong>. Additionally, because all the relevant information was embedded in the form itself, we no longer had to manage constantly updating documentation, solving the original issue of keeping it current with new features. The result was a more efficient tool and a smoother user experience.</p>
+
+<hr />
+
+<h2 id="-ready-to-use-usability-audit-checklist">📋 Ready-to-Use: Usability Audit Checklist</h2>
+
+<p>Want a <strong>quick win</strong>? Run this checklist on your website today:</p>
+
+<p>✅ Can users tell what the page is about in <strong>5 seconds</strong>?<br />
+✅ Is the <strong>main navigation instantly visible</strong>?<br />
+✅ Do all <strong>buttons clearly say what they do</strong>?<br />
+✅ Is the <strong>text scannable</strong> (short, clear, bolded keywords)?<br />
+✅ Did you <strong>remove unnecessary choices</strong>?</p>
+
+<hr />
+
+<h2 id="-final-verdict-read-this-book">📖 Final Verdict: Read This Book</h2>
+
+<p>If you design, code, or manage websites — <strong>read this book</strong>.👓</p>
+
+<p>Then, use the checklist to <strong>audit your site today</strong>.🧐</p>
+
+<hr />
+
+<h2 id="-join-the-conversation">💬 Join the Conversation</h2>
+
+<p>What usability mistakes frustrate you the most?<br />
+📚 Got any other must-read books for developers?<br />
+👉 <a href="https://www.linkedin.com/"><strong>Comment directly on this LinkedIn post</strong></a> and let’s discuss!</p>
+
+  </div><a class="u-url" href="/2025/03/06/book-review-dont-make-me-think.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="http://localhost:4000/feed.xml">
+            <svg class="svg-icon orange">
+              <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
+                11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
+                13.806c0-1.21.983-2.195 2.194-2.195zM10.606
+                16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
+              />
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+        <ul class="contact-list">
+          
+        </ul>
+      </div>
+      <div class="footer-col">
+        <p>A collection of personal notes</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li>
+    <a rel="me" href="https://github.com/hodovani" target="_blank" title="Matvii Hodovaniuk at GitHub">
+      <span class="grey fa-brands fa-github fa-lg"></span>
+    </a>
+  </li><li>
+    <a rel="me" href="https://x.com/0matvii" target="_blank" title="Matvii Hodovaniuk at X (formerly Twitter)">
+      <span class="grey fa-brands fa-x-twitter fa-lg"></span>
+    </a>
+  </li><li>
+    <a rel="me" href="https://www.linkedin.com/in/matvii-hodovaniuk/" target="_blank" title="Matvii Hodovaniuk at LinkedIn">
+      <span class="grey fa-brands fa-linkedin fa-lg"></span>
+    </a>
+  </li><li>
+    <a rel="me" href="https://www.facebook.com/profile.php?id=61571849573003" target="_blank" title="Matvii Hodovaniuk at Facebook">
+      <span class="grey fa-brands fa-facebook fa-lg"></span>
+    </a>
+  </li><li>
+    <a rel="me" href="https://www.goodreads.com/user/show/188012369-matvii" target="_blank" title="Matvii Hodovaniuk at Goodreads">
+      <span class="grey fa-brands fa-goodreads fa-lg"></span>
+    </a>
+  </li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
