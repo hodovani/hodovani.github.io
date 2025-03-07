@@ -116,6 +116,8 @@ Users don’t search for **the best** option — they pick the **first reasonabl
 - Fewer choices
 - Obvious next steps
 
+---
+
 ### 👆 Lesson 4: Every Click Should Have a Clear Outcome
 
 Users hate surprises — they want to know exactly what happens when they click.
