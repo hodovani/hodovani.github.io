@@ -21,7 +21,38 @@
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
   <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Matvii Hodovaniuk&apos;s Notes" />
-</head>
+<script>
+  const favicons = ["🛠️", "📦", "💡", "🔄", "📈", "🎯", "🧠", "🤖", "🧑‍💻", "🔍", "🧑‍🏫", "📚", "🚀", "💪", "🏆", "🥇", "🎉", "💻", "👩‍💻", "👨‍💻", "⚙️", "🔧", "⌨️", "🌐", "✨", "🎨", "😄", "🌟", "🍃"];
+
+  function setFavicon(emoji) {
+    const canvas = document.createElement("canvas");
+    const size = 64;
+    canvas.width = size;
+    canvas.height = size;
+    const ctx = canvas.getContext("2d");
+
+    ctx.font = "56px sans-serif";
+    ctx.textAlign = "center";
+    ctx.textBaseline = "middle";
+    ctx.fillText(emoji, size / 2, size / 2);
+
+    const favicon = document.createElement("link");
+    favicon.rel = "icon";
+    favicon.href = canvas.toDataURL();
+
+    const oldFavicon = document.querySelector("link[rel='icon']");
+    if (oldFavicon) {
+      oldFavicon.remove();
+    }
+
+    document.head.appendChild(favicon);
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const randomEmoji = favicons[Math.floor(Math.random() * favicons.length)];
+    setFavicon(randomEmoji);
+  });
+</script></head>
 <body><header class="site-header">
 
   <div class="wrapper"><a class="site-title" rel="author" href="/">Matvii Hodovaniuk&#39;s Notes</a><nav class="site-nav">
@@ -114,6 +145,10 @@
   </li><li>
     <a rel="me" href="https://www.facebook.com/profile.php?id=61571849573003" target="_blank" title="Matvii Hodovaniuk at Facebook">
       <span class="grey fa-brands fa-facebook fa-lg"></span>
+    </a>
+  </li><li>
+    <a rel="me" href="https://www.goodreads.com/user/show/188012369-matvii" target="_blank" title="Matvii Hodovaniuk at Goodreads">
+      <span class="grey fa-brands fa-goodreads fa-lg"></span>
     </a>
   </li></ul>
 </div>

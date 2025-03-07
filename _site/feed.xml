@@ -1,1 +1,232 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-02-22T09:23:39+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Matvii Hodovaniuk’s Notes</title><subtitle>A collection of personal notes</subtitle><author><name>Matvii Hodovaniuk</name></author><entry><title type="html">Hello World</title><link href="http://localhost:4000/2025/02/20/hello-world.html" rel="alternate" type="text/html" title="Hello World" /><published>2025-02-20T00:00:00+01:00</published><updated>2025-02-20T00:00:00+01:00</updated><id>http://localhost:4000/2025/02/20/hello-world</id><content type="html" xml:base="http://localhost:4000/2025/02/20/hello-world.html"><![CDATA[]]></content><author><name>Matvii Hodovaniuk</name></author><summary type="html"><![CDATA[]]></summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-03-06T14:10:57+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Matvii Hodovaniuk’s Notes</title><subtitle>A collection of personal notes</subtitle><author><name>Matvii Hodovaniuk</name></author><entry><title type="html">Book Review: ‘Don’t Make Me Think’ — Key Takeaways For Devs</title><link href="http://localhost:4000/2025/03/06/book-review-dont-make-me-think.html" rel="alternate" type="text/html" title="Book Review: ‘Don’t Make Me Think’ — Key Takeaways For Devs" /><published>2025-03-06T00:00:00+01:00</published><updated>2025-03-06T00:00:00+01:00</updated><id>http://localhost:4000/2025/03/06/book-review-dont-make-me-think</id><content type="html" xml:base="http://localhost:4000/2025/03/06/book-review-dont-make-me-think.html"><![CDATA[<p>Sometimes, I land on a website and feel lost within 3 seconds. Other times, I click a button and wonder if it’s broken. Recently, I hit <strong>Cmd+Z</strong> to undo an input, and the site threw me back to the previous form step — erasing 20 minutes of work. 🤯</p>
+
+<p>That’s <strong>bad usability</strong>.<br />
+It made me search for the usability book every developer, designer, and product manager should read - and I found it:<br />
+<strong>“Don’t Make Me Think” by Steve Krug.</strong></p>
+
+<hr />
+
+<h2 id="-why-i-picked-it-up">🔍 Why I Picked It Up</h2>
+
+<p>After reading <em>Start with Why</em> by Simon Sinek, I built a habit of asking <em>why</em> — including why a book written over 20 years ago is still a top recommendation today.</p>
+
+<p>Before starting, I scanned <strong>Goodreads</strong> reviews:</p>
+<ul>
+  <li>Some called it outdated.</li>
+  <li>Others said it was too basic. 🤔</li>
+</ul>
+
+<p>So, I read it with 3 key questions in mind:</p>
+<ul>
+  <li>Which advice still holds up? ✅</li>
+  <li>What (if anything) feels outdated? 🕰️</li>
+  <li>Is it useful for developers, or just for designers? 🧑‍💻🧑‍🎨</li>
+</ul>
+
+<hr />
+
+<h2 id="-3-myths-about-this-book--busted-">🕵 3 Myths About This Book — Busted 💥</h2>
+
+<h3 id="️-myth-1-its-outdated">⌛️ Myth 1: It’s Outdated</h3>
+<p>✅ <strong>Reality:</strong> Only the technology examples feel old.<br />
+The core principles are timeless — exactly what Steve Krug predicted:</p>
+
+<blockquote>
+  <p>“Since it was about design principles and not technology, I didn’t think it was likely to be out of date anytime soon.”</p>
+</blockquote>
+
+<p>Even today, the advice holds up.<br />
+The ideas also apply <strong>beyond design</strong>, like in habit formation: <em>“Atomic Habits” teaches: make it attractive and reduce friction. That’s usability in real life.</em> 👍</p>
+
+<hr />
+
+<h3 id="-myth-2-its-too-basic-for-ux-pros">🧑‍💻 Myth 2: It’s Too Basic for UX Pros</h3>
+<p>✅ <strong>Reality:</strong> It’s simple on purpose — a usability guide for busy people.</p>
+
+<p>The simplicity makes it accessible even for non-designers.<br />
+Humor, illustrations, and conversational tone make it one of the <strong>most enjoyable</strong> design books I’ve read. 👍</p>
+
+<hr />
+
+<h3 id="-myth-3-its-all-common-sense">🙃 Myth 3: It’s All Common Sense</h3>
+<p>✅ <strong>Reality:</strong> If it’s so obvious, why do so many websites still get usability wrong?</p>
+
+<p>It’s <strong>timeless advice</strong> — even 20+ years later, modern websites still break Krug’s basic rules. 👍</p>
+
+<hr />
+
+<h2 id="-what-changed-since-the-last-edition">🔄 What Changed Since the Last Edition?</h2>
+
+<p>Here’s what evolved in the usability world since the book’s release:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Then</th>
+      <th>Now</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Simple usability testing</td>
+      <td>A/B testing, heatmaps, remote testing</td>
+    </tr>
+    <tr>
+      <td>Basic layouts</td>
+      <td>Grid systems, micro-interactions, motion design</td>
+    </tr>
+    <tr>
+      <td>Functional design</td>
+      <td>Emotional design (branding, storytelling, gamification)</td>
+    </tr>
+    <tr>
+      <td>Accessibility optional</td>
+      <td>Accessibility mandatory (WCAG, inclusive design)</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="-5-practical-lessons-you-can-use-today">📚 5 Practical Lessons You Can Use Today</h2>
+
+<h3 id="-lesson-0-dont-make-me-think">🤔 Lesson 0: Don’t Make Me Think</h3>
+<p>If you only remember one rule — <strong>this is it.</strong></p>
+
+<hr />
+
+<h3 id="-lesson-1-users-dont-read--they-scan">🔎 Lesson 1: Users Don’t Read — They Scan</h3>
+<p>Developers often assume users read every word. They don’t.</p>
+
+<p>Users hunt for <strong>what they need</strong>, scanning like this:</p>
+
+<ul>
+  <li>Google search results: You jump between <strong>bold text</strong> and <strong>headings</strong>, not full sentences.</li>
+</ul>
+
+<p>✅ <strong>Make content scannable:</strong></p>
+<ul>
+  <li>Short paragraphs</li>
+  <li>Clear headings</li>
+  <li>Bold keywords</li>
+  <li>Obvious buttons (no clever labels)</li>
+</ul>
+
+<hr />
+
+<h3 id="-lesson-2-what-makes-something-usable">😌 Lesson 2: What Makes Something Usable?</h3>
+<p>Krug’s usability checklist still works today:</p>
+
+<p>✅ <strong>Usability = Useful + Learnable + Memorable + Effective + Efficient + Desirable + Delightful</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Attribute</th>
+      <th>Question to Ask</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Useful</td>
+      <td>Does it solve a real need?</td>
+    </tr>
+    <tr>
+      <td>Learnable</td>
+      <td>Can users figure it out quickly?</td>
+    </tr>
+    <tr>
+      <td>Memorable</td>
+      <td>Will they remember how to use it?</td>
+    </tr>
+    <tr>
+      <td>Effective</td>
+      <td>Does it get the job done?</td>
+    </tr>
+    <tr>
+      <td>Efficient</td>
+      <td>Does it minimise effort?</td>
+    </tr>
+    <tr>
+      <td>Desirable</td>
+      <td>Do users actually want it?</td>
+    </tr>
+    <tr>
+      <td>Delightful</td>
+      <td>Is it enjoyable to use?</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h3 id="-lesson-3-users-satisfice-not-optimise">🎯 Lesson 3: Users Satisfice, Not Optimise</h3>
+<p>Users don’t search for <strong>the best</strong> option — they pick the <strong>first reasonable</strong> one.</p>
+
+<p>✅ <strong>Design for satisficing:</strong></p>
+<ul>
+  <li>Clear defaults</li>
+  <li>Fewer choices</li>
+  <li>Obvious next steps</li>
+</ul>
+
+<h3 id="-lesson-4-every-click-should-have-a-clear-outcome">👆 Lesson 4: Every Click Should Have a Clear Outcome</h3>
+
+<p>Users hate surprises — they want to know exactly what happens when they click.</p>
+
+<p>✅ <strong>Make actions predictable:</strong></p>
+<ul>
+  <li>Label buttons based on what happens next (e.g., “Next Step: Choose Your Plan” instead of just “Next”)</li>
+  <li>Avoid mystery meat navigation (unclear icons or vague links)</li>
+  <li>Use visual feedback after clicks (loading indicators, confirmation messages)</li>
+</ul>
+
+<p>The less users wonder, the faster they move forward — and the happier they are.</p>
+
+<hr />
+
+<h2 id="-my-favourite-part-positive-examples">✨ My Favourite Part: Positive Examples</h2>
+
+<p>What stood out was the focus on <strong>what to do right</strong>, instead of just pointing out bad designs.<br />
+This makes the book <strong>inspiring</strong> instead of <strong>shaming</strong>.</p>
+
+<hr />
+
+<h2 id="-real-life-example-from-my-previous-job">💼 Real-Life Example from My Previous Job</h2>
+
+<p><strong>🚧 Problem:</strong><br />
+At my previous job, we had an internal pipeline management tool used by fewer than 500 employees. Onboarding new users was challenging because we had to constantly update the documentation with each new feature, causing confusion and inefficiencies.</p>
+
+<p><strong>🔧 Solution:</strong><br />
+We were given the green light to rethink the process, and without realising it at the time, we instinctively applied the “Don’t make me think” principle — we simplified the interface. We removed redundant steps, displayed only relevant options based on the user’s department, and included all necessary information directly within the form, so users didn’t have to visit additional pages.</p>
+
+<p><strong>📈 Benefit:</strong><br />
+The average time users spent on a form dropped from <strong>4 minutes to 1 minute</strong>. Additionally, because all the relevant information was embedded in the form itself, we no longer had to manage constantly updating documentation, solving the original issue of keeping it current with new features. The result was a more efficient tool and a smoother user experience.</p>
+
+<hr />
+
+<h2 id="-ready-to-use-usability-audit-checklist">📋 Ready-to-Use: Usability Audit Checklist</h2>
+
+<p>Want a <strong>quick win</strong>? Run this checklist on your website today:</p>
+
+<p>✅ Can users tell what the page is about in <strong>5 seconds</strong>?<br />
+✅ Is the <strong>main navigation instantly visible</strong>?<br />
+✅ Do all <strong>buttons clearly say what they do</strong>?<br />
+✅ Is the <strong>text scannable</strong> (short, clear, bolded keywords)?<br />
+✅ Did you <strong>remove unnecessary choices</strong>?</p>
+
+<hr />
+
+<h2 id="-final-verdict-read-this-book">📖 Final Verdict: Read This Book</h2>
+
+<p>If you design, code, or manage websites — <strong>read this book</strong>.👓</p>
+
+<p>Then, use the checklist to <strong>audit your site today</strong>.🧐</p>
+
+<hr />
+
+<h2 id="-join-the-conversation">💬 Join the Conversation</h2>
+
+<p>What usability mistakes frustrate you the most?<br />
+📚 Got any other must-read books for developers?<br />
+👉 <a href="https://www.linkedin.com/"><strong>Comment directly on this LinkedIn post</strong></a> and let’s discuss!</p>]]></content><author><name>Matvii Hodovaniuk</name></author><summary type="html"><![CDATA[A review of ‘Don’t Make Me Think’ highlighting key takeaways for UX and frontend developers, and the importance of user-friendly design.]]></summary></entry><entry><title type="html">Hello World</title><link href="http://localhost:4000/2025/02/22/hello-world.html" rel="alternate" type="text/html" title="Hello World" /><published>2025-02-22T00:00:00+01:00</published><updated>2025-02-22T00:00:00+01:00</updated><id>http://localhost:4000/2025/02/22/hello-world</id><content type="html" xml:base="http://localhost:4000/2025/02/22/hello-world.html"><![CDATA[]]></content><author><name>Matvii Hodovaniuk</name></author><summary type="html"><![CDATA[]]></summary></entry></feed>

@@ -4,3 +4,35 @@
   1. Head over to https://realfavicongenerator.net/ to add your own favicons.
   2. Customize default _includes/custom-head.html in your source directory and insert the given code snippet.
 {% endcomment %}
+<script>
+  const favicons = ["🛠️", "📦", "💡", "🔄", "📈", "🎯", "🧠", "🤖", "🧑‍💻", "🔍", "🧑‍🏫", "📚", "🚀", "💪", "🏆", "🥇", "🎉", "💻", "👩‍💻", "👨‍💻", "⚙️", "🔧", "⌨️", "🌐", "✨", "🎨", "😄", "🌟", "🍃"];
+
+  function setFavicon(emoji) {
+    const canvas = document.createElement("canvas");
+    const size = 64;
+    canvas.width = size;
+    canvas.height = size;
+    const ctx = canvas.getContext("2d");
+
+    ctx.font = "56px sans-serif";
+    ctx.textAlign = "center";
+    ctx.textBaseline = "middle";
+    ctx.fillText(emoji, size / 2, size / 2);
+
+    const favicon = document.createElement("link");
+    favicon.rel = "icon";
+    favicon.href = canvas.toDataURL();
+
+    const oldFavicon = document.querySelector("link[rel='icon']");
+    if (oldFavicon) {
+      oldFavicon.remove();
+    }
+
+    document.head.appendChild(favicon);
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const randomEmoji = favicons[Math.floor(Math.random() * favicons.length)];
+    setFavicon(randomEmoji);
+  });
+</script>
