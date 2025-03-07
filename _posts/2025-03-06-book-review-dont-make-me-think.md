@@ -173,4 +173,4 @@ Then, use the checklist to **audit your site today**.🧐
 
 What usability mistakes frustrate you the most?  
 📚 Got any other must-read books for developers?  
-👉 [**Comment directly on this LinkedIn post**](https://www.linkedin.com/) and let’s discuss!
+👉 [**Comment directly on this LinkedIn post**](https://www.linkedin.com/posts/matvii-hodovaniuk_book-review-dont-make-me-think-key-activity-7303693149632098307-HuIr?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAABnNKwEB2lfrWNWEbJpgLecVHpkPcvVVEuY) and let’s discuss!
