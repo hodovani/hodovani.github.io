@@ -30,11 +30,15 @@ layout: base
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
       {%- endif -%}</p>
+
+    {%- include share.html -%}
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
+
+  {%- include share.html -%}
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
