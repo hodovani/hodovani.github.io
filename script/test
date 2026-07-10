@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+
+script/build
+
+if test -e "./_site/index.html";then
+  echo "Integration test passed: Site built successfully!"
+else
+  echo "Integration test failed: The example site doesn't seem to build. _site/index.html not found."
+  exit 1
+fi
