@@ -5,5 +5,3 @@ set -e
 script/test
 
 rm -Rf _site
-
-gem build minima.gemspec
