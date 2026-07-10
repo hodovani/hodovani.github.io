@@ -1,2 +1,40 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+.post-share {
+  margin: 1.5rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  .share-label {
+    font-weight: 600;
+    color: $text-color;
+  }
+
+  .share-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: background-color 0.2s ease, opacity 0.2s ease;
+
+    &:hover {
+      text-decoration: none;
+      opacity: 0.9;
+    }
+
+    &.linkedin {
+      background-color: #0077b5;
+      color: white;
+
+      .fa-linkedin {
+        font-size: 1.1em;
+      }
+    }
+  }
+}

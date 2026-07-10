@@ -1,0 +1,7 @@
+<div class="post-share">
+  <span class="share-label">Share: </span>
+  {%- assign share_url = site.url | append: site.baseurl | append: page.url | url_encode -%}
+  <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ share_url }}" target="_blank" rel="noopener noreferrer" class="share-btn linkedin" title="Share on LinkedIn">
+    <span class="fa-brands fa-linkedin"></span> LinkedIn
+  </a>
+</div>
