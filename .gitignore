@@ -2,4 +2,6 @@
 .jekyll-cache
 .jekyll-metadata
 vendor
-.DS_Store
+.DS_Store_site/
+.bundle/
+vendor/bundle/
