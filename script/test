@@ -6,6 +6,9 @@ script/build
 
 if test -e "./_site/index.html";then
   echo "Integration test passed: Site built successfully!"
+
+  echo "Running HTMLProofer to validate the site..."
+  bundle exec htmlproofer ./_site --disable-external
 else
   echo "Integration test failed: The example site doesn't seem to build. _site/index.html not found."
   exit 1
