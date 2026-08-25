@@ -76,7 +76,7 @@ Enterprise AI applications require deterministic guardrails to prevent prompt in
 The project includes a programmatic layout and geometry test suite (`layout.test.js`) executed across 5 standard viewports (Mobile Small `375px`, Mobile Large `412px`, Tablet `768px`, Laptop `1280px`, Full HD `1920px`):
 1. **Zero Horizontal Overflow**: `document.documentElement.scrollWidth <= viewport.width` across every step.
 2. **Bounding Containment**: Component boundaries fit cleanly within the viewport.
-3. **Accessible Touch Targets**: All interactive controls satisfy $\ge 24\text{px}$ minimum tap height.
-4. **Responsive Breakpoints**: Grid collapses to 1 column below $600\text{px}$ and expands to 2 columns on tablet/desktop.
+3. **Accessible Touch Targets**: All interactive controls satisfy `≥ 24px` minimum tap height.
+4. **Responsive Breakpoints**: Grid collapses to 1 column below `600px` and expands to 2 columns on tablet/desktop.
 5. **Color Contrast & Legibility**: Code snippet background (`--bg`) and text (`--text`) remain distinct across all themes, guaranteeing high-contrast readability.
 6. **Multi-Step Flow Verification**: Validates transitions from Step 1 through Step 4 activation and cURL snippet generation.
