@@ -6,3 +6,4 @@ vendor
 _site/
 .bundle/
 vendor/bundle/
+.lighthouseci/
