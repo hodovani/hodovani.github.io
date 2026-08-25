@@ -1,0 +1,107 @@
+---
+layout: page
+---
+
+{{ content }}
+
+<style>
+.projects-lead {
+  font-size: 1.05rem;
+  margin-bottom: 1.5rem;
+  color: #4b5563;
+}
+
+.projects-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.project-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 1.25rem;
+  background: transparent;
+  transition: border-color 0.2s ease;
+}
+
+.project-card:hover {
+  border-color: #9ca3af;
+}
+
+.project-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.project-title {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.project-title a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-title a:hover {
+  text-decoration: underline;
+}
+
+.project-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.15rem 0.45rem;
+  border-radius: 4px;
+  background: #2563eb;
+  color: #ffffff;
+}
+
+.project-description {
+  font-size: 0.925rem;
+  line-height: 1.5;
+  margin-bottom: 0.75rem;
+  color: inherit;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-bottom: 0.85rem;
+}
+
+.project-tags .tag {
+  font-size: 0.75rem;
+  padding: 0.15rem 0.45rem;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  color: inherit;
+}
+
+.project-links {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.btn-link {
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+.btn-link.secondary {
+  color: #6b7280;
+}
+</style>

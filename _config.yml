@@ -9,8 +9,15 @@ author: "Matvii Hodovaniuk"
 description: "A collection of personal notes"
 baseurl: ""
 url: "https://hodovani.github.io"
+repository: "hodovani/hodovani.github.io"
+github_username: "hodovani"
 
 google_analytics: "G-SL6D3HJS5L"
+
+# Navigation links in header
+header_pages:
+  - projects/index.md
+  - about.md
 
 # Webmaster verification (optional)
 webmaster_verifications:
