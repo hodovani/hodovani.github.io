@@ -7,6 +7,11 @@ on:
       - main
   pull_request:
 
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -30,3 +35,40 @@ jobs:
 
       - name: Run Lighthouse CI
         run: npx @lhci/cli autorun
+
+      - name: Generate Lighthouse Step Summary
+        run: node script/lighthouse-summary.mjs
+
+      - name: Post Lighthouse Results to PR Comment
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { generateLighthouseSummary } = await import('${{ github.workspace }}/script/lighthouse-summary.mjs');
+            const body = generateLighthouseSummary();
+            const tag = '<!-- lighthouse-ci-summary -->';
+            const fullBody = `${tag}\n${body}`;
+
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+            });
+
+            const botComment = comments.find(c => c.body.includes(tag));
+
+            if (botComment) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: botComment.id,
+                body: fullBody,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: fullBody,
+              });
+            }
