@@ -3,6 +3,7 @@ name: CI
 on:
   push:
     branches:
+      - master
       - main
   pull_request:
 
@@ -11,13 +12,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-    - name: Set up Ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '3.2' # You can adjust this if needed
-        bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
 
-    - name: Run CI Script
-      run: script/cibuild
+      - name: Build and Test Jekyll Site
+        run: script/cibuild
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run Lighthouse CI
+        run: npx @lhci/cli autorun
