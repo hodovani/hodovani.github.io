@@ -2,6 +2,16 @@
 layout: page
 title: AI Safety & Gateway Guardrail Policy Builder
 permalink: /projects/multi-step-form/
+date: 2026-08-25
+project:
+  description: "A multi-step configuration workflow for provisioning runtime guardrails on LLM gateway endpoints. Includes step-by-step inline validation, non-destructive back/forward navigation, review jump links, debounced localStorage draft persistence, and multiple theme modes."
+  tags:
+    - Web Components
+    - Vanilla JS
+    - CSS Custom Properties
+    - Accessibility
+    - Zero Dependencies
+  source_path: projects/multi-step-form
 ---
 
 <div class="project-intro">
