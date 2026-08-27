@@ -6,6 +6,7 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  flex-wrap: wrap;
 
   .share-label {
     font-weight: 600;
@@ -28,13 +29,29 @@
       opacity: 0.9;
     }
 
+    .share-icon {
+      flex-shrink: 0;
+    }
+
     &.linkedin {
       background-color: #0077b5;
       color: white;
+    }
 
-      .share-icon {
-        flex-shrink: 0;
-      }
+    &.x-twitter {
+      background-color: #000000;
+      color: white;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    &.bluesky {
+      background-color: #1185fe;
+      color: white;
+    }
+
+    &.mastodon {
+      background-color: #6364ff;
+      color: white;
     }
   }
 }
