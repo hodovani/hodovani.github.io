@@ -7,3 +7,5 @@ _site/
 .bundle/
 vendor/bundle/
 .lighthouseci/
+*-report.html
+node_modules/

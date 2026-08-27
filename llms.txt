@@ -1,0 +1,23 @@
+---
+layout: null
+permalink: /llms.txt
+---
+# {{ site.title }}
+
+> {{ site.description }} - Engineering portfolio, architectural case studies, and modern web systems by {{ site.author }}.
+
+## Interactive Projects
+{% assign project_pages = site.pages | where_exp: "item", "item.project" | sort: "date" | reverse %}
+{% for item in project_pages %}
+- [{{ item.title }}]({{ item.url | absolute_url }}): {{ item.project.description }}
+{% endfor %}
+
+## Technical Writing & Architecture Posts
+{% for post in site.posts %}
+- [{{ post.title }}]({{ post.url | absolute_url }}): {{ post.excerpt | strip_html | strip_newlines | truncate: 160 }}
+{% endfor %}
+
+## Core Feeds & Verification
+- RSS Feed: {{ "/feed.xml" | absolute_url }}
+- Sitemap: {{ "/sitemap.xml" | absolute_url }}
+- GitHub: https://github.com/{{ site.github_username }}
