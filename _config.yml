@@ -53,6 +53,9 @@ minima:
     - title: Matvii Hodovaniuk at Facebook
       icon: facebook
       url: "https://www.facebook.com/profile.php?id=61571849573003"
+    - title: Matvii Hodovaniuk at Hacker News
+      icon: hackernews
+      url: "https://news.ycombinator.com/user?id=hodovaniuk_m"
     - title: Matvii Hodovaniuk at Goodreads
       icon: goodreads
       url: "https://www.goodreads.com/user/show/188012369-matvii"
